@@ -16,10 +16,13 @@ public class MovimientoJugador2D : MonoBehaviour
     public float radioSuelo = 0.2f;
     public LayerMask capaSuelo;
 
+    private Animator animator; //animacion
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         saltosRestantes = saltosMaximos;
+        animator = GetComponent<Animator>(); //animacion
     }
 
     void Update()
@@ -32,6 +35,9 @@ public class MovimientoJugador2D : MonoBehaviour
         {
             saltosRestantes = saltosMaximos;
         }
+
+        // Animación
+        animator.SetFloat("velocidad", Mathf.Abs(movimientoX));
     }
 
     void FixedUpdate()
@@ -43,6 +49,18 @@ public class MovimientoJugador2D : MonoBehaviour
     public void OnMove(InputValue value)
     {
         movimientoX = value.Get<Vector2>().x;
+        Vector3 escala = transform.localScale;
+
+        if (movimientoX > 0)
+        {
+            escala.x = Mathf.Abs(escala.x);
+        }
+        else if (movimientoX < 0)
+        {
+            escala.x = -Mathf.Abs(escala.x);
+        }
+
+        transform.localScale = escala;
     }
 
     public void OnJump(InputValue value)
