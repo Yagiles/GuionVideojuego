@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 911cbdc04f6cdf948a9df9f4b13f0cd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6762001301160590889
+    second: prota_iddle_spritesheet_0
+  - first:
+      213: 1636412657890729424
+    second: prota_iddle_spritesheet_1
+  - first:
+      213: -3547502228289829314
+    second: prota_iddle_spritesheet_2
+  - first:
+      213: 4753908555451965471
+    second: prota_iddle_spritesheet_3
+  - first:
+      213: -2681911592789993993
+    second: prota_iddle_spritesheet_4
+  - first:
+      213: 9075104784572789358
+    second: prota_iddle_spritesheet_5
+  - first:
+      213: -3651563643059798435
+    second: prota_iddle_spritesheet_6
+  - first:
+      213: -2098837261882340457
+    second: prota_iddle_spritesheet_7
+  - first:
+      213: 2654366547770695239
+    second: prota_iddle_spritesheet_8
+  - first:
+      213: 8310154937569143754
+    second: prota_iddle_spritesheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 104
+        width: 234
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ef7665b5477dd50800000000000000
+      internalID: 6762001301160590889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 104
+        width: 235
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd978b64a4b5b610800000000000000
+      internalID: 1636412657890729424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 104
+        width: 235
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36c0e2d48db4cec0800000000000000
+      internalID: -3547502228289829314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 104
+        width: 235
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10a766d4a649f140800000000000000
+      internalID: 4753908555451965471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 105
+        width: 234
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f510c0ad9fe7cad0800000000000000
+      internalID: -2681911592789993993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 105
+        width: 234
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62b8e738bf31fd70800000000000000
+      internalID: 9075104784572789358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 105
+        width: 235
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e70b4a63a035dc0800000000000000
+      internalID: -3651563643059798435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 104
+        width: 235
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b462461ae6fd2e0800000000000000
+      internalID: -2098837261882340457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 104
+        width: 235
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e5d8fcf4436d420800000000000000
+      internalID: 2654366547770695239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_iddle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 104
+        width: 235
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb644af2e9935370800000000000000
+      internalID: 8310154937569143754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prota_iddle_spritesheet_0: 6762001301160590889
+      prota_iddle_spritesheet_1: 1636412657890729424
+      prota_iddle_spritesheet_2: -3547502228289829314
+      prota_iddle_spritesheet_3: 4753908555451965471
+      prota_iddle_spritesheet_4: -2681911592789993993
+      prota_iddle_spritesheet_5: 9075104784572789358
+      prota_iddle_spritesheet_6: -3651563643059798435
+      prota_iddle_spritesheet_7: -2098837261882340457
+      prota_iddle_spritesheet_8: 2654366547770695239
+      prota_iddle_spritesheet_9: 8310154937569143754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

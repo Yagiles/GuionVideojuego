@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 309ce8543ac31d1488bc1b131d9debf4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7006756096061529575
+    second: prota_walk_spritesheet_0
+  - first:
+      213: -6588237102897459192
+    second: prota_walk_spritesheet_1
+  - first:
+      213: -2907238457697183851
+    second: prota_walk_spritesheet_2
+  - first:
+      213: -8908130986413984487
+    second: prota_walk_spritesheet_3
+  - first:
+      213: -3517042328913539441
+    second: prota_walk_spritesheet_4
+  - first:
+      213: -3286924567199555432
+    second: prota_walk_spritesheet_5
+  - first:
+      213: -6968083357971773687
+    second: prota_walk_spritesheet_6
+  - first:
+      213: -4731749678755335945
+    second: prota_walk_spritesheet_7
+  - first:
+      213: -7499233974365120006
+    second: prota_walk_spritesheet_8
+  - first:
+      213: -2858534379081969290
+    second: prota_walk_spritesheet_9
+  - first:
+      213: 3847983213740059776
+    second: prota_walk_spritesheet_10
+  - first:
+      213: 1859921646095874128
+    second: prota_walk_spritesheet_11
+  - first:
+      213: 9048129314498816013
+    second: prota_walk_spritesheet_12
+  - first:
+      213: -7654620874829091503
+    second: prota_walk_spritesheet_13
+  - first:
+      213: 8819879233395362380
+    second: prota_walk_spritesheet_14
+  - first:
+      213: -8056248330975931675
+    second: prota_walk_spritesheet_15
+  - first:
+      213: 5420953438734381170
+    second: prota_walk_spritesheet_16
+  - first:
+      213: 1769422534609597216
+    second: prota_walk_spritesheet_17
+  - first:
+      213: 7744660394314645140
+    second: prota_walk_spritesheet_18
+  - first:
+      213: -8153014529334336274
+    second: prota_walk_spritesheet_19
+  - first:
+      213: 843429126523202238
+    second: prota_walk_spritesheet_20
+  - first:
+      213: 820064502105387698
+    second: prota_walk_spritesheet_21
+  - first:
+      213: -4408818871038204267
+    second: prota_walk_spritesheet_22
+  - first:
+      213: 7326427989217591058
+    second: prota_walk_spritesheet_23
+  - first:
+      213: 535128987046506258
+    second: prota_walk_spritesheet_24
+  - first:
+      213: 7961787383316244690
+    second: prota_walk_spritesheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 616
+        width: 232
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912237a347003ce90800000000000000
+      internalID: -7006756096061529575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 617
+        width: 233
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8009fb9c241e194a0800000000000000
+      internalID: -6588237102897459192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 616
+        width: 234
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597da93a60a67a7d0800000000000000
+      internalID: -2907238457697183851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 616
+        width: 235
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915f42ea016ff5480800000000000000
+      internalID: -8908130986413984487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 617
+        width: 237
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e881dc2a4f03fc0800000000000000
+      internalID: -3517042328913539441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 616
+        width: 236
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890e090658f7262d0800000000000000
+      internalID: -3286924567199555432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 616
+        width: 237
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90708caba156c4f90800000000000000
+      internalID: -6968083357971773687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 616
+        width: 236
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f038bfacb2755eb0800000000000000
+      internalID: -4731749678755335945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 616
+        width: 236
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af91d66de6e5de790800000000000000
+      internalID: -7499233974365120006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 616
+        width: 234
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d39c90227458d0800000000000000
+      internalID: -2858534379081969290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 616
+        width: 233
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c64ac6858c66530800000000000000
+      internalID: 3847983213740059776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 617
+        width: 233
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058ba9102e4cfc910800000000000000
+      internalID: 1859921646095874128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 617
+        width: 233
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0820882ca9619d70800000000000000
+      internalID: 9048129314498816013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 81
+        width: 233
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15da589ced255c590800000000000000
+      internalID: -7654620874829091503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 80
+        width: 233
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a006cde61866a70800000000000000
+      internalID: 8819879233395362380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 80
+        width: 234
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e298d9a3d4723090800000000000000
+      internalID: -8056248330975931675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 80
+        width: 236
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f1bb5e681b3b40800000000000000
+      internalID: 5420953438734381170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 80
+        width: 236
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023f9f0ab604e8810800000000000000
+      internalID: 1769422534609597216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 79
+        width: 236
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e392d789f8a7b60800000000000000
+      internalID: 7744660394314645140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 79
+        width: 237
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4ad6a6b7caade80800000000000000
+      internalID: -8153014529334336274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 79
+        width: 236
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba22a7625674bb00800000000000000
+      internalID: 843429126523202238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 79
+        width: 235
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b236ecd154716b00800000000000000
+      internalID: 820064502105387698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 79
+        width: 234
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596aab0889ab0d2c0800000000000000
+      internalID: -4408818871038204267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 80
+        width: 233
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f3bc96073bca560800000000000000
+      internalID: 7326427989217591058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 80
+        width: 232
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21febed7af82d6700800000000000000
+      internalID: 535128987046506258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_walk_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 80
+        width: 232
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d860c71173fd7e60800000000000000
+      internalID: 7961787383316244690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prota_walk_spritesheet_0: -7006756096061529575
+      prota_walk_spritesheet_1: -6588237102897459192
+      prota_walk_spritesheet_10: 3847983213740059776
+      prota_walk_spritesheet_11: 1859921646095874128
+      prota_walk_spritesheet_12: 9048129314498816013
+      prota_walk_spritesheet_13: -7654620874829091503
+      prota_walk_spritesheet_14: 8819879233395362380
+      prota_walk_spritesheet_15: -8056248330975931675
+      prota_walk_spritesheet_16: 5420953438734381170
+      prota_walk_spritesheet_17: 1769422534609597216
+      prota_walk_spritesheet_18: 7744660394314645140
+      prota_walk_spritesheet_19: -8153014529334336274
+      prota_walk_spritesheet_2: -2907238457697183851
+      prota_walk_spritesheet_20: 843429126523202238
+      prota_walk_spritesheet_21: 820064502105387698
+      prota_walk_spritesheet_22: -4408818871038204267
+      prota_walk_spritesheet_23: 7326427989217591058
+      prota_walk_spritesheet_24: 535128987046506258
+      prota_walk_spritesheet_25: 7961787383316244690
+      prota_walk_spritesheet_3: -8908130986413984487
+      prota_walk_spritesheet_4: -3517042328913539441
+      prota_walk_spritesheet_5: -3286924567199555432
+      prota_walk_spritesheet_6: -6968083357971773687
+      prota_walk_spritesheet_7: -4731749678755335945
+      prota_walk_spritesheet_8: -7499233974365120006
+      prota_walk_spritesheet_9: -2858534379081969290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
