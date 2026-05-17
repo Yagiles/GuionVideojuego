@@ -50,7 +50,7 @@ MonoBehaviour:
     texto: "Es due\xF1o de un puesto con forma de cubo de basura."
   - nombrePersonaje: "T\xFA"
     texto: Muchas gracias.
-  - nombrePersonaje: "T\xFA"
+  - nombrePersonaje: Franfishco
     texto: "No hay de qu\xE9. Hasta pronto. "
   avanceAutomatico: 0
   duracionLinea: 2

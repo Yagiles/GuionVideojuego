@@ -21,11 +21,11 @@ MonoBehaviour:
     texto: "Llevabas tanto tiempo desaparecido que no sab\xEDa si lo har\xEDas."
   - nombrePersonaje: "T\xFA"
     texto: Disculpe, pero...
-  - nombrePersonaje: "Ni\xF1a"
+  - nombrePersonaje: Lily
     texto: <i>Sniff<i>...
-  - nombrePersonaje: "Ni\xF1a"
+  - nombrePersonaje: Lily
     texto: "Crecen tan r\xE1pido."
-  - nombrePersonaje: "Ni\xF1a"
+  - nombrePersonaje: Lily
     texto: "Hacen tan buena pareja, \xBFno lo crees?."
   - nombrePersonaje: "T\xFA"
     texto: Emm...
