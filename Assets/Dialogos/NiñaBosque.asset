@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: "Ni\xF1aBosque"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: Lily
+    texto: "\xA1Por fin, por fin!"
+  - nombrePersonaje: Lily
+    texto: "\xA1Vamos a jugar! \xA1A jugar, a jugar!"
+  - nombrePersonaje: "T\xFA"
+    texto: 'Espera, un momento.
+
+'
+  - nombrePersonaje: "T\xFA"
+    texto: Lo siento, pero tenemos un asunto urgente.
+  - nombrePersonaje: Lily
+    texto: "\xA1Noooooo! Pero yo quiero jugar."
+  - nombrePersonaje: Lily
+    texto: Porfi un escondite, porfi, porfiiiii.
+  - nombrePersonaje: "T\xFA"
+    texto: ...
+  - nombrePersonaje: Lily
+    texto: "\xA1Os dar\xE9 un premio si me encontr\xE1is! \xA1Lo prometo!"
+  - nombrePersonaje: Lily
+    texto: "S\xF3lo tengo un coj\xEDn, \xA1pero eso es un muy buen premio!"
+  - nombrePersonaje: Lily
+    texto: "As\xED podr\xE9is so\xF1ar muuuuuuy felices y abrazar perdices."
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFUn coj\xEDn?"
+  - nombrePersonaje: "Gu\xEDa"
+    texto: "Me suena a que nos hac\xEDa falta, \xBFcierto? "
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFDe verdad nos dar\xE1s un coj\xEDn? "
+  - nombrePersonaje: Lily
+    texto: "\xA1S\xED, s\xED! Pero quiero que jugu\xE9is conmigo, porfi. "
+  - nombrePersonaje: "T\xFA"
+    texto: "Est\xE1 bien, est\xE1 bien. Voy a contar. "
+  - nombrePersonaje: Lily
+    texto: "\xA1Bieeeeeen!"
+  - nombrePersonaje: "T\xFA"
+    texto: 1...
+  - nombrePersonaje: "T\xFA"
+    texto: 2...
+  - nombrePersonaje: "T\xFA"
+    texto: "(La ni\xF1a se va,quitar una vez se implemente)"
+  - nombrePersonaje: "T\xFA"
+    texto: "\u2026\xA110!"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xA1All\xE1 voy!"
+  avanceAutomatico: 0
+  duracionLinea: 2
