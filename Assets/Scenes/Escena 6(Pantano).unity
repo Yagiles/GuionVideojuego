@@ -3737,6 +3737,7 @@ MonoBehaviour:
   requiereObjeto: 1
   objetoRequerido: {fileID: 0}
   objetoAActivar: {fileID: 470498893}
+  notificarMision: 0
   dialogoManager: {fileID: 1348599797}
 --- !u!4 &1717362381
 Transform:
@@ -3925,6 +3926,7 @@ MonoBehaviour:
   idsNecesariosParaHablar: []
   scriptMovimientoJugador: {fileID: 5331452949434317343}
   rbJugador: {fileID: 904010881075284424}
+  completaMision: 0
 --- !u!1 &1805769437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5839,7 +5841,7 @@ Transform:
   m_GameObject: {fileID: 7231512728508685633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.59, z: 0}
+  m_LocalPosition: {x: 0, y: -1.685, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
