@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: "Sigue al Gu\xEDa"
   descripcion: "Sigue al gu\xEDa por el bosque"
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tipoCompletado: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

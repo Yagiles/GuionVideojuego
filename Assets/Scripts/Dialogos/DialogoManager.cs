@@ -36,7 +36,14 @@ public class EventoActivarMisionDialogo
 {
     public DialogoData dialogo;
     public int despuesDeLinea;
+    public AccionMisionDialogo accion;
     [HideInInspector] public bool ejecutado;
+}
+
+public enum AccionMisionDialogo
+{
+    ActivarMisionActual,
+    AvanzarYActivarSiguiente
 }
 
 public class DialogoManager : MonoBehaviour
@@ -120,7 +127,6 @@ public class DialogoManager : MonoBehaviour
         ReiniciarEventosFlip();
         ReiniciarEventosMovimiento();
         ReiniciarEventosActivarMision();
-        ComprobarEventosActivarMision();
 
         dialogoActivo = true;
         puedeAvanzar = false;
@@ -170,6 +176,7 @@ public class DialogoManager : MonoBehaviour
 
         ComprobarEventosBeso();
         ComprobarEventosFlip();
+       
 
         int lineaActual = indiceLinea + 1;
 
@@ -363,20 +370,10 @@ public class DialogoManager : MonoBehaviour
             )
             {
                 if (MisionManager.Instance != null)
-                    MisionManager.Instance.ActivarMisionActual();
+                    MisionManager.Instance.AvanzarYActivarSiguienteMision();
 
                 evento.ejecutado = true;
             }
-        }
-    }
-
-    void ReiniciarEventosActivarMision()
-    {
-        if (eventosActivarMision == null) return;
-
-        for (int i = 0; i < eventosActivarMision.Length; i++)
-        {
-            eventosActivarMision[i].ejecutado = false;
         }
     }
 
@@ -396,12 +393,32 @@ public class DialogoManager : MonoBehaviour
             )
             {
                 if (MisionManager.Instance != null)
-                    MisionManager.Instance.ActivarMisionActual();
+                {
+                    if (evento.accion == AccionMisionDialogo.ActivarMisionActual)
+                    {
+                        MisionManager.Instance.ActivarMisionActual();
+                    }
+                    else if (evento.accion == AccionMisionDialogo.AvanzarYActivarSiguiente)
+                    {
+                        MisionManager.Instance.AvanzarYActivarSiguienteMision();
+                    }
+                }
 
                 evento.ejecutado = true;
             }
         }
     }
+
+    void ReiniciarEventosActivarMision()
+    {
+        if (eventosActivarMision == null) return;
+
+        for (int i = 0; i < eventosActivarMision.Length; i++)
+        {
+            eventosActivarMision[i].ejecutado = false;
+        }
+    }
+
     private IEnumerator ActivarAvance()
     {
         yield return null;
