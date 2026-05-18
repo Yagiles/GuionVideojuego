@@ -32,6 +32,15 @@ public class EventoMovimientoGuiaDialogoBosque
 }
 
 [System.Serializable]
+public class EventoSoltarObjetoDialogo
+{
+    public DialogoData dialogo;
+    public int despuesDeLinea;
+    public GameObject objetoASoltar;
+    [HideInInspector] public bool ejecutado;
+}
+
+[System.Serializable]
 public class EventoActivarMisionDialogo
 {
     public DialogoData dialogo;
@@ -74,6 +83,11 @@ public class DialogoManager : MonoBehaviour
 
     private bool ejecutandoEventoMovimiento = false;
 
+    [Header("Eventos de soltar objeto")]
+    public EventoSoltarObjetoDialogo[] eventosSoltarObjeto;
+
+    private bool esperandoRecogerObjeto = false;
+
     [Header("Eventos de activar mision")]
     public EventoActivarMisionDialogo[] eventosActivarMision;
 
@@ -98,6 +112,7 @@ public class DialogoManager : MonoBehaviour
         if (dialogoActivo && dialogoActual != null && !dialogoActual.avanceAutomatico && Input.GetKeyDown(KeyCode.E))
         {
             if (ejecutandoEventoMovimiento) return;
+            if (esperandoRecogerObjeto) return;
 
             if (escribiendo)
             {
@@ -127,6 +142,7 @@ public class DialogoManager : MonoBehaviour
         ReiniciarEventosFlip();
         ReiniciarEventosMovimiento();
         ReiniciarEventosActivarMision();
+        ReiniciarEventosSoltarObjeto();
 
         dialogoActivo = true;
         puedeAvanzar = false;
@@ -186,6 +202,14 @@ public class DialogoManager : MonoBehaviour
         if (eventoMovimiento != null)
         {
             StartCoroutine(EjecutarMovimientoDespuesDeLinea(eventoMovimiento));
+            return;
+        }
+
+        EventoSoltarObjetoDialogo eventoObjeto = BuscarEventoSoltarObjeto(lineaActual);
+
+        if (eventoObjeto != null)
+        {
+            StartCoroutine(EjecutarSoltarObjeto(eventoObjeto));
             return;
         }
 
@@ -420,6 +444,130 @@ public class DialogoManager : MonoBehaviour
         for (int i = 0; i < eventosActivarMision.Length; i++)
         {
             eventosActivarMision[i].ejecutado = false;
+        }
+    }
+
+    EventoSoltarObjetoDialogo BuscarEventoSoltarObjeto(int lineaActual)
+    {
+        if (eventosSoltarObjeto == null || dialogoActual == null) return null;
+
+        for (int i = 0; i < eventosSoltarObjeto.Length; i++)
+        {
+            EventoSoltarObjetoDialogo evento = eventosSoltarObjeto[i];
+
+            if (evento == null) continue;
+
+            if (
+                !evento.ejecutado &&
+                evento.dialogo == dialogoActual &&
+                evento.despuesDeLinea == lineaActual &&
+                evento.objetoASoltar != null
+            )
+            {
+                return evento;
+            }
+        }
+
+        return null;
+    }
+
+    IEnumerator EjecutarSoltarObjeto(EventoSoltarObjetoDialogo evento)
+    {
+        esperandoRecogerObjeto = true;
+        evento.ejecutado = true;
+
+        panelDialogo.SetActive(false);
+
+        if (textoContinuar != null)
+        {
+            textoContinuar.gameObject.SetActive(false);
+        }
+
+        DesbloquearMovimientoJugadorTemporal();
+
+        GameObject objeto = Instantiate(
+            evento.objetoASoltar,
+            evento.objetoASoltar.transform.position,
+            evento.objetoASoltar.transform.rotation
+        );
+
+        ObjetoRecogibleDialogo recogible = objeto.GetComponent<ObjetoRecogibleDialogo>();
+
+        if (recogible == null)
+        {
+            recogible = objeto.AddComponent<ObjetoRecogibleDialogo>();
+        }
+
+        recogible.dialogoManager = this;
+
+        while (!recogible.recogido)
+        {
+            yield return null;
+        }
+
+        BloquearMovimientoJugadorTemporal();
+
+        esperandoRecogerObjeto = false;
+
+        panelDialogo.SetActive(true);
+
+        if (textoContinuar != null && dialogoActual != null && !dialogoActual.avanceAutomatico)
+        {
+            textoContinuar.gameObject.SetActive(true);
+        }
+
+        indiceLinea++;
+
+        if (indiceLinea >= dialogoActual.lineas.Length)
+        {
+            TerminarDialogo();
+        }
+        else
+        {
+            MostrarLinea();
+        }
+    }
+
+    void ReiniciarEventosSoltarObjeto()
+    {
+        if (eventosSoltarObjeto == null) return;
+
+        for (int i = 0; i < eventosSoltarObjeto.Length; i++)
+        {
+            eventosSoltarObjeto[i].ejecutado = false;
+        }
+    }
+
+    void DesbloquearMovimientoJugadorTemporal()
+    {
+        MovimientoJugador2D movimiento = FindFirstObjectByType<MovimientoJugador2D>();
+
+        if (movimiento != null)
+        {
+            movimiento.enabled = true;
+        }
+    }
+
+    void BloquearMovimientoJugadorTemporal()
+    {
+        MovimientoJugador2D movimiento = FindFirstObjectByType<MovimientoJugador2D>();
+
+        if (movimiento != null)
+        {
+            movimiento.enabled = false;
+        }
+
+        GameObject jugador = GameObject.FindGameObjectWithTag("Player");
+
+        if (jugador != null)
+        {
+            Rigidbody2D rb = jugador.GetComponent<Rigidbody2D>();
+
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector2.zero;
+                rb.angularVelocity = 0f;
+            }
         }
     }
 

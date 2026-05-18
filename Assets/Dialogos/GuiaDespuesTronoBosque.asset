@@ -19,23 +19,23 @@ MonoBehaviour:
     texto: "\xBFOtra vez t\xFA?\xBFMe est\xE1s siguiendo?"
   - nombrePersonaje: "T\xFA"
     texto: "\xA1\xBFY c\xF3mo sabes que ten\xEDa una reuni\xF3n con el Rey?!\r\n"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: ...
   - nombrePersonaje: "T\xFA"
     texto: "Mira, da igual. \xBFT\xFA no conocer\xE1s un lugar secreto-"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "\xBFHablas del manantial?\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "\xA1\xBFC\xF3mo lo has-?!"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Nunca he estado, pero he o\xEDdo rumores."
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Creo recordar que era por aqu\xED..."
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: 'No, espera... '
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Por all\xED. S\xED, s\xED, es verdad, era por all\xED."
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "S\xEDgueme."
   avanceAutomatico: 0
   duracionLinea: 2

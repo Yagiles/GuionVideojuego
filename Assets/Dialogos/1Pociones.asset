@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1Pociones
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Hm\u2026 No parece haber nadie.\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "\xBFEs la cueva correcta?"
@@ -21,7 +21,7 @@ MonoBehaviour:
     texto: Bienvenidos a mi humilde morada.
   - nombrePersonaje: "T\xFA"
     texto: "\xA1\xA1Ahh!!"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "\xA1Qu\xE9 susto!"
   - nombrePersonaje: Poc
     texto: (<i>suspiro<i>)
@@ -31,13 +31,59 @@ MonoBehaviour:
     texto: "\xBFNo me reconoc\xE9is?"
   - nombrePersonaje: "T\xFA"
     texto: Eh...no.
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Hombre Poc. Eres t\xFA."
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "No te reconoc\xEDa tan a oscuras. \xBFQu\xE9 haces aqu\xED metido?"
   - nombrePersonaje: Poc
     texto: "La alquimia requiere toda mi atenci\xF3n."
   - nombrePersonaje: Poc
-    texto: "Aqu\xED meter\xEDa lo de que te pide la planta, bla, bla, bla"
+    texto: Dejadme que me prepare una bebida.
+  - nombrePersonaje: Poc
+    texto: '(<i>saca un vaso<i>)
+
+'
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFQu\xE9 vas a preparar?\r\n"
+  - nombrePersonaje: Poc
+    texto: "Zumo m\xE1gico. \xBFQuieres que os prepare uno?\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: 'No gracias.
+
+'
+  - nombrePersonaje: Fey
+    texto: "\xBFEh? \xBFPor qu\xE9 no?\r\n"
+  - nombrePersonaje: Fey
+    texto: "Es la bebida m\xE1s deliciosa que existe.\r\n"
+  - nombrePersonaje: Fey
+    texto: "Desde que Su Majestad las distribuy\xF3 se ha vuelto la mercanc\xEDa
+      m\xE1s preciada de aqu\xED.\r\n"
+  - nombrePersonaje: Poc
+    texto: "\xBFEh? Me he quedado sin hierbas medicinales\u2026\r\n"
+  - nombrePersonaje: Poc
+    texto: "Sin ellas no puedo hacerme la bebida\u2026\r\n"
+  - nombrePersonaje: Fey
+    texto: "Hmm\u2026 Tengo una idea.\r\n"
+  - nombrePersonaje: Fey
+    texto: 'Te podemos traer ese ingrediente a cambio de algo.
+
+'
+  - nombrePersonaje: Fey
+    texto: "\xBFQu\xE9 te parece? A m\xED me preparas uno extra y a \xE9l le das
+      algo a cambio.\r\n"
+  - nombrePersonaje: Fey
+    texto: "Quiz\xE1s algo que le ayude en su misi\xF3n para encontrar el manantial.
+      \r\n"
+  - nombrePersonaje: Poc
+    texto: "\u2026\r\n"
+  - nombrePersonaje: Poc
+    texto: "Asumo que hab\xE9is hablado ya con Bell."
+  - nombrePersonaje: Poc
+    texto: "Est\xE1 bien. Aunque ahora no tengo mucho que ofrecer adem\xE1s de mis
+      pociones.\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: 'Mejor que nada...
+
+'
   avanceAutomatico: 0
   duracionLinea: 2

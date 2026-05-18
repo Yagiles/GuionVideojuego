@@ -15,17 +15,17 @@ MonoBehaviour:
   lineas:
   - nombrePersonaje: "T\xFA"
     texto: ' Oye, esto no es el manantial'
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Hmm\u2026 No lo parece,no."
   - nombrePersonaje: "T\xFA"
     texto: "No me tomes el pelo, no es momento para tonter\xEDas.\r\n"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Ey, ey. Rel\xE1jate. "
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Todo el mundo comete errores, \xBFcierto?\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "D\xE9jate de bromas. De d\xF3nde vengo el tiempo es oro.\r\n"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Ah, qu\xE9 intenso.\r\n"
   avanceAutomatico: 0
   duracionLinea: 2

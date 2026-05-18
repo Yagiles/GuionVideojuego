@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Servilleta
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoData
   nombreObjeto: Servilleta
-  descripcion: "(La informaci\xF3n de la servilleta)"
+  descripcion: "Ni bast\xF3n ni corona se podr\xE1 encontrar,\r\npero en el suelo
+    algo puedes alzar.\r\nTira de ello con curiosidad\r\ny descubrir\xE1s el secreto
+    del manantial."
   icono: {fileID: 7100427586974295483, guid: b736946b0d899814c8c34d7b5cc34e1a, type: 3}

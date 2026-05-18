@@ -1517,6 +1517,8 @@ MonoBehaviour:
   idsNecesariosParaHablar:
   - "Ni\xF1a"
   - Novia
+  requiereObjeto: 0
+  objetoNecesario: {fileID: 0}
   scriptMovimientoJugador: {fileID: 0}
   rbJugador: {fileID: 0}
   completaMision: 0
@@ -1692,8 +1694,10 @@ MonoBehaviour:
   dialogoManager: {fileID: 1458376035}
   idsNecesariosParaHablar:
   - "Ni\xF1a"
-  scriptMovimientoJugador: {fileID: 0}
-  rbJugador: {fileID: 0}
+  requiereObjeto: 0
+  objetoNecesario: {fileID: 0}
+  scriptMovimientoJugador: {fileID: 1117858536}
+  rbJugador: {fileID: 1117858537}
   completaMision: 0
 --- !u!1 &1117858533
 GameObject:
@@ -3380,7 +3384,7 @@ PrefabInstance:
     - target: {fileID: 6731910626285804007, guid: 5f241954875570244a241d2bc333b532, type: 3}
       propertyPath: rbJugador
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1117858537}
     - target: {fileID: 6731910626285804007, guid: 5f241954875570244a241d2bc333b532, type: 3}
       propertyPath: dialogoManager
       value: 
@@ -3388,7 +3392,7 @@ PrefabInstance:
     - target: {fileID: 6731910626285804007, guid: 5f241954875570244a241d2bc333b532, type: 3}
       propertyPath: scriptMovimientoJugador
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1117858536}
     - target: {fileID: 7907938880129897165, guid: 5f241954875570244a241d2bc333b532, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6498015

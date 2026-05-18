@@ -1667,6 +1667,22 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278190080
       objectReference: {fileID: 0}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosSoltarObjeto.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosSoltarObjeto.Array.data[0].dialogo
+      value: 
+      objectReference: {fileID: 11400000, guid: d5dc05f9093155e44bc61fda1540d09a, type: 2}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosSoltarObjeto.Array.data[0].objetoASoltar
+      value: 
+      objectReference: {fileID: 7615925416033434414, guid: 1ecc48ff5031ac141b8800494b980ca2, type: 3}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosSoltarObjeto.Array.data[0].despuesDeLinea
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3783125078783684724, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: m_Type
       value: 0
@@ -2612,8 +2628,93 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3935289374041291129, guid: d305ee8e080534d489d91ee08b5d0050, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1724660314}
+    - targetCorrespondingSourceObject: {fileID: 3935289374041291129, guid: d305ee8e080534d489d91ee08b5d0050, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1724660315}
   m_SourcePrefab: {fileID: 100100000, guid: d305ee8e080534d489d91ee08b5d0050, type: 3}
+--- !u!1 &1724660313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3935289374041291129, guid: d305ee8e080534d489d91ee08b5d0050, type: 3}
+  m_PrefabInstance: {fileID: 1724660312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1724660314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724660313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db36005acf58fb4abffcd726c8b7e70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuable
+  idPersonaje: NPCPociones
+  dialogo: {fileID: 11400000, guid: d5dc05f9093155e44bc61fda1540d09a, type: 2}
+  dialogoManager: {fileID: 712259542}
+  idsNecesariosParaHablar: []
+  requiereObjeto: 1
+  objetoNecesario: {fileID: 11400000, guid: cbe26b32c0a210643a5c44281574c639, type: 2}
+  scriptMovimientoJugador: {fileID: 1608920851}
+  rbJugador: {fileID: 1608920850}
+  completaMision: 0
+--- !u!60 &1724660315
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724660313}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.8828125}
+    newSize: {x: 1, y: 0.8828125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.25, y: 0.43359375}
+      - {x: -0.5, y: 0}
+      - {x: -0.25, y: -0.43359375}
+      - {x: 0.25, y: -0.43359375}
+      - {x: 0.5, y: 0}
+      - {x: 0.25, y: 0.43359375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1756168556
 GameObject:
   m_ObjectHideFlags: 0

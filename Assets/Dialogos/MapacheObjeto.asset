@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: MapacheObjeto
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: Bell
+    texto: "(<i>bostezo<i<) \r\n\r\n"
+  - nombrePersonaje: Bell
+    texto: " Oh\u2026 Por fin lleg\xE1is.\r\n\r\n"
+  - nombrePersonaje: Bell
+    texto: "\xBFY bien? \xBFTen\xE9is algo que me ayude?\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: "S\xED. Nos han dado esta almohada.\r\n\r\n"
+  - nombrePersonaje: Bell
+    texto: "\xA1Oh! \xA1Bien hecho, bien hecho!\r\n\r\n"
+  - nombrePersonaje: Bell
+    texto: 'Tomad. Lo prometido es deuda.
+
+      
+
+'
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFUna...servilleta usada?\r\n\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFDe qu\xE9 me sirve a mi esto?\r\n\r\n"
+  - nombrePersonaje: Bell
+    texto: 'No juzgues a un libro por su mugre.
+
+      
+
+'
+  - nombrePersonaje: "T\xFA"
+    texto: "As\xED no...\r\n\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: En fin, gracias.Supongo
+  avanceAutomatico: 0
+  duracionLinea: 2

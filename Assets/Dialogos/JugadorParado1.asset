@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JugadorParado1
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Vamos ,que llegamos tarde! "
   avanceAutomatico: 1
   duracionLinea: 2
