@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JugadorParado2
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "No te quedes ah\xED parado. \xA1Vamos!"
   avanceAutomatico: 1
   duracionLinea: 2

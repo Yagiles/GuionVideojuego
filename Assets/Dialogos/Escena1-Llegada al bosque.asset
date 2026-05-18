@@ -13,20 +13,22 @@ MonoBehaviour:
   m_Name: Escena1-Llegada al bosque
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xBFHola? \xBFHooolaa?\r\n"
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Vamos, despierta ya!"
   - nombrePersonaje: "T\xFA"
     texto: "Ahh\u2026 \xBFD\xF3nde\u2026estoy?"
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Por fin despiertas, amigo m\xEDo! \xA1Menos mal!"
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Venga, r\xE1pido! \xA1Que llegamos tarde!"
   - nombrePersonaje: "T\xFA"
     texto: "\xBFEh? \xBFQui\xE9n eres-"
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Tenemos que irnos ya! No querr\xE1s llegar tarde a un evento tan
       especial, \xBFverdad? "
   - nombrePersonaje: "T\xFA"
     texto: "\xA1Espera! \xA1Primero dime d\xF3nde estoy!"
+  avanceAutomatico: 0
+  duracionLinea: 2

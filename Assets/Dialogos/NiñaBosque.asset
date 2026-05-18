@@ -37,7 +37,7 @@ MonoBehaviour:
     texto: "As\xED podr\xE9is so\xF1ar muuuuuuy felices y abrazar perdices."
   - nombrePersonaje: "T\xFA"
     texto: "\xBFUn coj\xEDn?"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Me suena a que nos hac\xEDa falta, \xBFcierto? "
   - nombrePersonaje: "T\xFA"
     texto: "\xBFDe verdad nos dar\xE1s un coj\xEDn? "

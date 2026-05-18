@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: BodaCinematica
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Uff! \xA1Por los pelos!\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "\xBFUna boda?\r\n\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "Oye, \xBFde qu\xE9 va todo e-"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "\xA1Shhhhhhh! \xA1Calla, que viene la mejor parte!\r\n"
   - nombrePersonaje: Rey
     texto: " Y usted, se\xF1or Ping\xFCino, promete amarla y respetarla, en la salud
       y en la felicidad- \r\n"
   - nombrePersonaje: "T\xFA"
     texto: "\xBFNo era en la enfermedad? \r\n"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "Shhhh\r\n \r\n"
   - nombrePersonaje: Rey
     texto: 'Por el resto de la eternidad
@@ -45,7 +45,7 @@ MonoBehaviour:
     texto: Entonces, por el poder que me ha otorgado el bosque y la corona...
   - nombrePersonaje: Rey
     texto: "Yo os declaro marido y mujer. \xA1Puede besar al ave!"
-  - nombrePersonaje: Guia
+  - nombrePersonaje: Fey
     texto: "\xA1Bravo! \xA1Que vivan los novios!\r\n"
   - nombrePersonaje: "T\xFA"
     texto: 'Bueno, ahora que ha acabado la boda.
@@ -53,7 +53,7 @@ MonoBehaviour:
 '
   - nombrePersonaje: "T\xFA"
     texto: "\xBFPodr\xEDas decirme qu\xE9 est\xE1 pasando?\r\n"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "\xBFA qu\xE9 te refieres?\r\n"
   - nombrePersonaje: "T\xFA"
     texto: "\xA1\xBFC\xF3mo que a qu\xE9 me refiero?!\r\n\r\n"
@@ -67,9 +67,9 @@ MonoBehaviour:
     texto: "Mira, acabo de llegar a este sitio y no entiendo qu\xE9 est\xE1 pasando."
   - nombrePersonaje: "T\xFA"
     texto: "\xBFMe podr\xEDas explicar d\xF3nde estoy?"
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: Lo siento, tengo que ir a saludar a los novios.
-  - nombrePersonaje: "Gu\xEDa"
+  - nombrePersonaje: Fey
     texto: "A lo mejor alguno de los invitados sabe a qu\xE9 te refieres."
   avanceAutomatico: 0
   duracionLinea: 2

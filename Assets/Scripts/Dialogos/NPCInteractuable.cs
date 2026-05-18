@@ -5,12 +5,16 @@ public class NPCInteractuable : MonoBehaviour
     [Header("Identificador de este personaje")]
     public string idPersonaje;
 
-    [Header("Diálogo")]
+    [Header("Dialogo")]
     public DialogoData dialogo;
     public DialogoManager dialogoManager;
 
     [Header("Condiciones para poder hablar")]
     public string[] idsNecesariosParaHablar;
+
+    [Header("Condicion por objeto")]
+    public bool requiereObjeto = false;
+    public ObjetoData objetoNecesario;
 
     [Header("Movimiento a bloquear")]
     public MonoBehaviour scriptMovimientoJugador;
@@ -22,7 +26,7 @@ public class NPCInteractuable : MonoBehaviour
     private bool jugadorCerca = false;
     private bool dialogoEnCurso = false;
     private bool esperandoSoltarE = false;
-    public bool dialogoTerminado {get; private set; } = false;
+    public bool dialogoTerminado { get; private set; } = false;
 
     private void Update()
     {
@@ -61,15 +65,40 @@ public class NPCInteractuable : MonoBehaviour
 
     bool CumpleCondiciones()
     {
-        if (idsNecesariosParaHablar == null || idsNecesariosParaHablar.Length == 0)
+        if (idsNecesariosParaHablar != null && idsNecesariosParaHablar.Length > 0)
         {
-            return true;
+            for (int i = 0; i < idsNecesariosParaHablar.Length; i++)
+            {
+                if (EstadoDialogos.instancia == null)
+                {
+                    Debug.LogWarning("No existe EstadoDialogos");
+                    return false;
+                }
+
+                if (!EstadoDialogos.instancia.HaHabladoCon(idsNecesariosParaHablar[i]))
+                {
+                    return false;
+                }
+            }
         }
 
-        for (int i = 0; i < idsNecesariosParaHablar.Length; i++)
+        if (requiereObjeto)
         {
-            if (!EstadoDialogos.instancia.HaHabladoCon(idsNecesariosParaHablar[i]))
+            if (InventarioManager.Instance == null)
             {
+                Debug.LogWarning("No existe InventarioManager");
+                return false;
+            }
+
+            if (objetoNecesario == null)
+            {
+                Debug.LogWarning("Este NPC requiere un objeto, pero no se ha asignado Objeto Necesario");
+                return false;
+            }
+
+            if (!InventarioManager.Instance.TieneObjeto(objetoNecesario))
+            {
+                Debug.Log("Necesitas el objeto: " + objetoNecesario.nombreObjeto);
                 return false;
             }
         }
@@ -87,15 +116,18 @@ public class NPCInteractuable : MonoBehaviour
         esperandoSoltarE = true;
         dialogoTerminado = true;
 
-        // Notifica al MisionManager si existe
         if (completaMision && MisionManager.Instance != null)
+        {
             MisionManager.Instance.NotificarDialogoTerminado(idPersonaje);
+        }
     }
 
     void BloquearMovimientoJugador()
     {
         if (scriptMovimientoJugador != null)
+        {
             scriptMovimientoJugador.enabled = false;
+        }
 
         if (rbJugador != null)
         {
@@ -113,7 +145,9 @@ public class NPCInteractuable : MonoBehaviour
         }
 
         if (scriptMovimientoJugador != null)
+        {
             scriptMovimientoJugador.enabled = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

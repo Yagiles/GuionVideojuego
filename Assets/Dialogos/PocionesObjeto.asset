@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: PocionesObjeto
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: Poc
+    texto: "\xA1Hab\xE9is vuelto!"
+  - nombrePersonaje: Poc
+    texto: "\xBFTen\xE9is la planta?"
+  - nombrePersonaje: "T\xFA"
+    texto: "S\xED, aqu\xED tienes."
+  - nombrePersonaje: Poc
+    texto: Muchas gracias.
+  - nombrePersonaje: Poc
+    texto: Como muestra de agradecimiento, toma esta llave.
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFUna llave?"
+  - nombrePersonaje: Poc
+    texto: "S\xED. Me la dio el rey hace tiempo por ayudarle con la producci\xF3n
+      de zumo m\xE1gico."
+  - nombrePersonaje: Fey
+    texto: "\xBFEh? \xA1Entonces eso quiere decir que nos puedes hacer m\xE1s!"
+  - nombrePersonaje: Fey
+    texto: "\xA1Eres incre\xEDble!"
+  - nombrePersonaje: Poc
+    texto: (<i>saca dos vasos<i>)
+  - nombrePersonaje: Poc
+    texto: "Bueno, me alegro de que mi habilidad haga felices a los dem\xE1s\u2026"
+  - nombrePersonaje: Poc
+    texto: "Aunque ahora que me hac\xE9is recordar, incluso cuando me reun\xEDa con
+      \xE9l para fabricar zumo m\xE1gico, manten\xEDa algo de distancia. "
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFEh? \xBFEn serio? "
+  - nombrePersonaje: Poc
+    texto: "S\xED. Era como si estuviera siempre en alerta. "
+  - nombrePersonaje: Poc
+    texto: "\xBFTal vez escond\xEDa algo? "
+  - nombrePersonaje: Poc
+    texto: (<i>gulp<i>)
+  - nombrePersonaje: Poc
+    texto: (<i>ahhh<i>)
+  - nombrePersonaje: Fey
+    texto: "Ahhh\u2026 No hay nada mejor que un vaso de zumo m\xE1gico. "
+  - nombrePersonaje: "T\xFA"
+    texto: "Un momento. \xBFA qu\xE9 te refieres con eso? "
+  - nombrePersonaje: Poc
+    texto: "\xBFEh? \xBFDije algo raro?"
+  - nombrePersonaje: Poc
+    texto: Vamos, prueba un poco de zumo.
+  - nombrePersonaje: Fey
+    texto: "\xA1S\xED, vamos! Prueba un poco."
+  - nombrePersonaje: "T\xFA"
+    texto: "Eh, no gracias\u2026"
+  avanceAutomatico: 0
+  duracionLinea: 2
