@@ -203,6 +203,11 @@ public class DialogoManager : MonoBehaviour
 
     void TerminarDialogo()
     {
+        if (EstadoDialogos.instancia != null && dialogoActual != null)
+        {
+            EstadoDialogos.instancia.MarcarComoHablado(dialogoActual.name);
+        }
+
         ComprobarEventosActivarMisionAlTerminar();
 
         if (coroutineAutoDialogo != null)
@@ -225,7 +230,6 @@ public class DialogoManager : MonoBehaviour
         alTerminarDialogo?.Invoke();
         alTerminarDialogo = null;
     }
-
     void ComprobarEventosBeso()
     {
         if (eventosBeso == null || dialogoActual == null) return;

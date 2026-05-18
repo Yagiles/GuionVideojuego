@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Planta
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoData
   nombreObjeto: Planta
-  descripcion: "Planta del pantano. \xDAtil para crear pociones."
+  descripcion: "\xDAtil para crear pociones."
   icono: {fileID: 5248824363959493440, guid: f8755d723ea5e8a42bb302bee8c47870, type: 3}
