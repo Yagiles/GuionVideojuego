@@ -12,6 +12,8 @@ public class MisionManager : MonoBehaviour
     private int indiceMisionActual = 0;
     private bool primeraEscena = true;
 
+    private bool misionActiva = false;
+
     // Para misiones tipo SecuenciaDialogos
     private int indiceNPCActual = 0;
 
@@ -25,6 +27,7 @@ public class MisionManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
@@ -48,6 +51,7 @@ public class MisionManager : MonoBehaviour
             return;
         }
 
+        if (!misionActiva) return;
         if (indiceMisionActual >= misiones.Count) return;
 
         MisionData mision = misiones[indiceMisionActual];
@@ -58,9 +62,20 @@ public class MisionManager : MonoBehaviour
             ActualizarUI();
     }
 
-    // Llamado desde DialogoTrigger al terminar un diálogo
+    public void ActivarMisionActual()
+    {
+        if (indiceMisionActual >= misiones.Count) return;
+
+        misionActiva = true;
+        indiceNPCActual = 0;
+        objetosRecogidosEnMision.Clear();
+
+        ActualizarUI();
+    }
+
     public void NotificarDialogoTerminado(string nombreNPC)
     {
+        if (!misionActiva) return;
         if (indiceMisionActual >= misiones.Count) return;
 
         MisionData mision = misiones[indiceMisionActual];
@@ -76,15 +91,13 @@ public class MisionManager : MonoBehaviour
                 if (mision.nombresNPCsEnOrden[indiceNPCActual] == nombreNPC)
                 {
                     indiceNPCActual++;
-                    // Si hemos hablado con todos, completar misión
+
                     if (indiceNPCActual >= mision.nombresNPCsEnOrden.Length)
                     {
-                        indiceNPCActual = 0;
                         CompletarMisionActual();
                     }
                     else
                     {
-                        // Actualiza el texto para indicar con quién hablar ahora
                         ActualizarUI();
                     }
                 }
@@ -92,9 +105,9 @@ public class MisionManager : MonoBehaviour
         }
     }
 
-    // Llamado desde ObjetoRecolectable al recoger un objeto
     public void NotificarObjetoRecogido(ObjetoData objeto)
     {
+        if (!misionActiva) return;
         if (indiceMisionActual >= misiones.Count) return;
 
         MisionData mision = misiones[indiceMisionActual];
@@ -104,8 +117,8 @@ public class MisionManager : MonoBehaviour
         if (!objetosRecogidosEnMision.Contains(objeto))
             objetosRecogidosEnMision.Add(objeto);
 
-        // Comprueba si se han recogido todos los objetos requeridos
         bool todosRecogidos = true;
+
         foreach (ObjetoData obj in mision.objetosRequeridos)
         {
             if (!objetosRecogidosEnMision.Contains(obj))
@@ -117,7 +130,6 @@ public class MisionManager : MonoBehaviour
 
         if (todosRecogidos)
         {
-            objetosRecogidosEnMision.Clear();
             CompletarMisionActual();
         }
     }
@@ -125,29 +137,41 @@ public class MisionManager : MonoBehaviour
     public void CompletarMisionActual()
     {
         if (indiceMisionActual >= misiones.Count) return;
+
         indiceMisionActual++;
+        misionActiva = false;
+
+        indiceNPCActual = 0;
+        objetosRecogidosEnMision.Clear();
+
         ActualizarUI();
     }
 
     public MisionData GetMisionActual()
     {
+        if (!misionActiva) return null;
         if (indiceMisionActual >= misiones.Count) return null;
+
         return misiones[indiceMisionActual];
     }
 
-    // Para misiones de secuencia, devuelve con quién hay que hablar ahora
     public string GetNPCActual()
     {
+        if (!misionActiva) return null;
         if (indiceMisionActual >= misiones.Count) return null;
+
         MisionData mision = misiones[indiceMisionActual];
+
         if (mision.tipoCompletado != TipoCompletado.SecuenciaDialogos) return null;
         if (indiceNPCActual >= mision.nombresNPCsEnOrden.Length) return null;
+
         return mision.nombresNPCsEnOrden[indiceNPCActual];
     }
 
     void ActualizarUI()
     {
         MisionUI ui = FindFirstObjectByType<MisionUI>();
+
         if (ui != null)
             ui.RefrescarUI();
     }

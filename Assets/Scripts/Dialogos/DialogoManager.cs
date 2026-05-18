@@ -31,6 +31,14 @@ public class EventoMovimientoGuiaDialogoBosque
     public bool ejecutado;
 }
 
+[System.Serializable]
+public class EventoActivarMisionDialogo
+{
+    public DialogoData dialogo;
+    public int despuesDeLinea;
+    [HideInInspector] public bool ejecutado;
+}
+
 public class DialogoManager : MonoBehaviour
 {
     public GameObject panelDialogo;
@@ -58,6 +66,9 @@ public class DialogoManager : MonoBehaviour
     public EventoMovimientoGuiaDialogoBosque[] eventosMovimiento;
 
     private bool ejecutandoEventoMovimiento = false;
+
+    [Header("Eventos de activar mision")]
+    public EventoActivarMisionDialogo[] eventosActivarMision;
 
     [Header("Efecto escritura")]
     public float velocidadEscritura = 0.03f;
@@ -108,6 +119,8 @@ public class DialogoManager : MonoBehaviour
         ReiniciarEventosBeso();
         ReiniciarEventosFlip();
         ReiniciarEventosMovimiento();
+        ReiniciarEventosActivarMision();
+        ComprobarEventosActivarMision();
 
         dialogoActivo = true;
         puedeAvanzar = false;
@@ -183,6 +196,8 @@ public class DialogoManager : MonoBehaviour
 
     void TerminarDialogo()
     {
+        ComprobarEventosActivarMisionAlTerminar();
+
         if (coroutineAutoDialogo != null)
         {
             StopCoroutine(coroutineAutoDialogo);
@@ -329,6 +344,64 @@ public class DialogoManager : MonoBehaviour
         }
     }
 
+    void ComprobarEventosActivarMision()
+    {
+        if (eventosActivarMision == null || dialogoActual == null) return;
+
+        int lineaActual = indiceLinea + 1;
+
+        for (int i = 0; i < eventosActivarMision.Length; i++)
+        {
+            EventoActivarMisionDialogo evento = eventosActivarMision[i];
+
+            if (evento == null) continue;
+
+            if (
+                !evento.ejecutado &&
+                evento.dialogo == dialogoActual &&
+                evento.despuesDeLinea == lineaActual
+            )
+            {
+                if (MisionManager.Instance != null)
+                    MisionManager.Instance.ActivarMisionActual();
+
+                evento.ejecutado = true;
+            }
+        }
+    }
+
+    void ReiniciarEventosActivarMision()
+    {
+        if (eventosActivarMision == null) return;
+
+        for (int i = 0; i < eventosActivarMision.Length; i++)
+        {
+            eventosActivarMision[i].ejecutado = false;
+        }
+    }
+
+    void ComprobarEventosActivarMisionAlTerminar()
+    {
+        if (eventosActivarMision == null || dialogoActual == null) return;
+
+        for (int i = 0; i < eventosActivarMision.Length; i++)
+        {
+            EventoActivarMisionDialogo evento = eventosActivarMision[i];
+
+            if (evento == null) continue;
+
+            if (
+                !evento.ejecutado &&
+                evento.dialogo == dialogoActual
+            )
+            {
+                if (MisionManager.Instance != null)
+                    MisionManager.Instance.ActivarMisionActual();
+
+                evento.ejecutado = true;
+            }
+        }
+    }
     private IEnumerator ActivarAvance()
     {
         yield return null;
