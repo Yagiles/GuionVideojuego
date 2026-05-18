@@ -72,6 +72,17 @@ public class MisionManager : MonoBehaviour
 
         ActualizarUI();
     }
+    public void AvanzarYActivarSiguienteMision()
+    {
+        if (indiceMisionActual < misiones.Count)
+            indiceMisionActual++;
+
+        misionActiva = true;
+        indiceNPCActual = 0;
+        objetosRecogidosEnMision.Clear();
+
+        ActualizarUI();
+    }
 
     public void NotificarDialogoTerminado(string nombreNPC)
     {
