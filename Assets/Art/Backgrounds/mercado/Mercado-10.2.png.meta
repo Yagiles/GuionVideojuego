@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 51c3390707caa7341a40be4249fe4379
+guid: dbe06d89835780a4f8e231354463da13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -561574999700059647
-    second: Mercado-10.1 1_0
+      213: -7894189251906707460
+    second: Mercado-10.2_0
   - first:
-      213: -4938150384483194491
-    second: Mercado-10.1 1_1
+      213: -8234034196762884623
+    second: Mercado-10.2_1
   - first:
-      213: -8390254326128707071
-    second: Mercado-10.1 1_2
+      213: -2618510997952464694
+    second: Mercado-10.2_2
   - first:
-      213: 5854682752910174388
-    second: Mercado-10.1 1_3
+      213: 6072356405807620185
+    second: Mercado-10.2_3
   - first:
-      213: 2198638807984269870
-    second: Mercado-10.1 1_4
+      213: -4532065836412462509
+    second: Mercado-10.2_4
   - first:
-      213: -1755668258999690793
-    second: Mercado-10.1 1_5
+      213: 4276378539886668371
+    second: Mercado-10.2_5
   - first:
-      213: -2325579570779325155
-    second: Mercado-10.1 1_6
+      213: -465493140874270102
+    second: Mercado-10.2_6
   - first:
-      213: 2320473458654474686
-    second: Mercado-10.1 1_7
+      213: 2822821704187689130
+    second: Mercado-10.2_7
   - first:
-      213: 2657908835033362042
-    second: Mercado-10.1 1_8
+      213: 4170159798059732903
+    second: Mercado-10.2_8
   - first:
-      213: -660887027314288725
-    second: Mercado-10.1 1_9
+      213: 9060137846194530053
+    second: Mercado-10.2_9
   - first:
-      213: 453637717437867011
-    second: Mercado-10.1 1_10
+      213: 160481019412631596
+    second: Mercado-10.2_10
   - first:
-      213: -59150780048607123
-    second: Mercado-10.1 1_11
+      213: -8483049469583749886
+    second: Mercado-10.2_11
   - first:
-      213: -7678227390377193486
-    second: Mercado-10.1 1_12
+      213: -4792845211788745535
+    second: Mercado-10.2_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mercado-10.1 1_0
+      name: Mercado-10.2_0
       rect:
         serializedVersion: 2
         x: 1923
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10a432c5382e438f0800000000000000
-      internalID: -561574999700059647
+      spriteID: cffd46a53b4327290800000000000000
+      internalID: -7894189251906707460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_1
+      name: Mercado-10.2_1
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 589ab65836a287bb0800000000000000
-      internalID: -4938150384483194491
+      spriteID: 1f587891685dabd80800000000000000
+      internalID: -8234034196762884623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_2
+      name: Mercado-10.2_2
       rect:
         serializedVersion: 2
         x: 1682
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10af9e3d424df8b80800000000000000
-      internalID: -8390254326128707071
+      spriteID: ac8f69eee1e29abd0800000000000000
+      internalID: -2618510997952464694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_3
+      name: Mercado-10.2_3
       rect:
         serializedVersion: 2
         x: 698
@@ -217,14 +217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b821dfb1f2004150800000000000000
-      internalID: 5854682752910174388
+      spriteID: 9502bb57af7554450800000000000000
+      internalID: 6072356405807620185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_4
+      name: Mercado-10.2_4
       rect:
         serializedVersion: 2
         x: 1197
@@ -239,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2a6a43d852238e10800000000000000
-      internalID: 2198638807984269870
+      spriteID: 35a93f9322eda11c0800000000000000
+      internalID: -4532065836412462509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_5
+      name: Mercado-10.2_5
       rect:
         serializedVersion: 2
         x: 1540
@@ -261,14 +261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d915e6350d92a7e0800000000000000
-      internalID: -1755668258999690793
+      spriteID: 35a6c03ff9fb85b30800000000000000
+      internalID: 4276378539886668371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_6
+      name: Mercado-10.2_6
       rect:
         serializedVersion: 2
         x: 1411
@@ -283,18 +283,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1dfacaa3b1e9bfd0800000000000000
-      internalID: -2325579570779325155
+      spriteID: a6aeec4647c3a89f0800000000000000
+      internalID: -465493140874270102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_7
+      name: Mercado-10.2_7
       rect:
         serializedVersion: 2
         x: 1163
-        y: 1619
+        y: 1515
         width: 205
         height: 54
       alignment: 0
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb172d5f05af33020800000000000000
-      internalID: 2320473458654474686
+      spriteID: aa8be5e426dac2720800000000000000
+      internalID: 2822821704187689130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_8
+      name: Mercado-10.2_8
       rect:
         serializedVersion: 2
         x: 738
@@ -327,14 +327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7e2985d00ac2e420800000000000000
-      internalID: 2657908835033362042
+      spriteID: 7af07fbed326fd930800000000000000
+      internalID: 4170159798059732903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_9
+      name: Mercado-10.2_9
       rect:
         serializedVersion: 2
         x: 0
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba7944c00ce04d6f0800000000000000
-      internalID: -660887027314288725
+      spriteID: 5076f725e531cbd70800000000000000
+      internalID: 9060137846194530053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_10
+      name: Mercado-10.2_10
       rect:
         serializedVersion: 2
         x: 1498
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3046a9cb915ab4600800000000000000
-      internalID: 453637717437867011
+      spriteID: c20584b03a42a3200800000000000000
+      internalID: 160481019412631596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_11
+      name: Mercado-10.2_11
       rect:
         serializedVersion: 2
         x: 1144
@@ -393,14 +393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d68f30fcdaadd2ff0800000000000000
-      internalID: -59150780048607123
+      spriteID: 20d0569d377264a80800000000000000
+      internalID: -8483049469583749886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mercado-10.1 1_12
+      name: Mercado-10.2_12
       rect:
         serializedVersion: 2
         x: 68
@@ -415,8 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff84e39ed4717590800000000000000
-      internalID: -7678227390377193486
+      spriteID: 1c466e76ca46c7db0800000000000000
+      internalID: -4792845211788745535
       vertices: []
       indices: 
       edges: []
@@ -435,19 +435,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mercado-10.1 1_0: -561574999700059647
-      Mercado-10.1 1_1: -4938150384483194491
-      Mercado-10.1 1_10: 453637717437867011
-      Mercado-10.1 1_11: -59150780048607123
-      Mercado-10.1 1_12: -7678227390377193486
-      Mercado-10.1 1_2: -8390254326128707071
-      Mercado-10.1 1_3: 5854682752910174388
-      Mercado-10.1 1_4: 2198638807984269870
-      Mercado-10.1 1_5: -1755668258999690793
-      Mercado-10.1 1_6: -2325579570779325155
-      Mercado-10.1 1_7: 2320473458654474686
-      Mercado-10.1 1_8: 2657908835033362042
-      Mercado-10.1 1_9: -660887027314288725
+      Mercado-10.2_0: -7894189251906707460
+      Mercado-10.2_1: -8234034196762884623
+      Mercado-10.2_10: 160481019412631596
+      Mercado-10.2_11: -8483049469583749886
+      Mercado-10.2_12: -4792845211788745535
+      Mercado-10.2_2: -2618510997952464694
+      Mercado-10.2_3: 6072356405807620185
+      Mercado-10.2_4: -4532065836412462509
+      Mercado-10.2_5: 4276378539886668371
+      Mercado-10.2_6: -465493140874270102
+      Mercado-10.2_7: 2822821704187689130
+      Mercado-10.2_8: 4170159798059732903
+      Mercado-10.2_9: 9060137846194530053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

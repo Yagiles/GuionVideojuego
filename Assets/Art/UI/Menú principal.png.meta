@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f2139db1e99f6cb48ba640fb6ed3e892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3464827867063289828
+    second: "Men\xFA principal_0"
+  - first:
+      213: -5819446413296407259
+    second: "Men\xFA principal_1"
+  - first:
+      213: 4610875638921335911
+    second: "Men\xFA principal_2"
+  - first:
+      213: -7336244569487717387
+    second: "Men\xFA principal_3"
+  - first:
+      213: 9110276481442020684
+    second: "Men\xFA principal_4"
+  - first:
+      213: 5007981338177233321
+    second: "Men\xFA principal_5"
+  - first:
+      213: 6448635999160686987
+    second: "Men\xFA principal_6"
+  - first:
+      213: 345278806530058035
+    second: "Men\xFA principal_7"
+  - first:
+      213: -628331226629046438
+    second: "Men\xFA principal_8"
+  - first:
+      213: -5470585733826820069
+    second: "Men\xFA principal_9"
+  - first:
+      213: -4547271494692131843
+    second: "Men\xFA principal_10"
+  - first:
+      213: -8639446065422874753
+    second: "Men\xFA principal_11"
+  - first:
+      213: -5321067606966720076
+    second: "Men\xFA principal_12"
+  - first:
+      213: -6851274434164610801
+    second: "Men\xFA principal_13"
+  - first:
+      213: -8458221022234484149
+    second: "Men\xFA principal_14"
+  - first:
+      213: -4265006134726683175
+    second: "Men\xFA principal_15"
+  - first:
+      213: -5079887514633593330
+    second: "Men\xFA principal_16"
+  - first:
+      213: 3780141963789040995
+    second: "Men\xFA principal_17"
+  - first:
+      213: 840491832998248253
+    second: "Men\xFA principal_18"
+  - first:
+      213: 4784473484110787581
+    second: "Men\xFA principal_19"
+  - first:
+      213: 3314884224710117991
+    second: "Men\xFA principal_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Men\xFA principal_0"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 179
+        width: 164
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1871df89657aefc0800000000000000
+      internalID: -3464827867063289828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_1"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 182
+        width: 105
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52deb02e15c2d3fa0800000000000000
+      internalID: -5819446413296407259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_2"
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 175
+        width: 141
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7649861d6fe1dff30800000000000000
+      internalID: 4610875638921335911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_3"
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 180
+        width: 132
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbcb42ee6c603a90800000000000000
+      internalID: -7336244569487717387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_4"
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 181
+        width: 129
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d72f901343e6e70800000000000000
+      internalID: 9110276481442020684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_5"
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 180
+        width: 127
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1e6df5e7cef7540800000000000000
+      internalID: 5007981338177233321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_6"
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 200
+        width: 48
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89d4cf56482e7950800000000000000
+      internalID: 6448635999160686987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_7"
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 175
+        width: 141
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e1b3ce3daac400800000000000000
+      internalID: 345278806530058035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_8"
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 177
+        width: 124
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f7d731418b747f0800000000000000
+      internalID: -628331226629046438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_9"
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 200
+        width: 48
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18ceed62439414b0800000000000000
+      internalID: -5470585733826820069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_10"
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 181
+        width: 129
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbad950ba8d4e0c0800000000000000
+      internalID: -4547271494692131843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_11"
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 178
+        width: 159
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77c256c3958a1880800000000000000
+      internalID: -8639446065422874753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_12"
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 198
+        width: 72
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b929e42435c726b0800000000000000
+      internalID: -5321067606966720076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_13"
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 195
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0927e4a3326be0a0800000000000000
+      internalID: -6851274434164610801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_14"
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 206
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42e8f93bcc5e9a80800000000000000
+      internalID: -8458221022234484149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_15"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 202
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d511c67487afc4c0800000000000000
+      internalID: -4265006134726683175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_16"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 205
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e9257483d9089b0800000000000000
+      internalID: -5079887514633593330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_17"
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 205
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d71388613c57430800000000000000
+      internalID: 3780141963789040995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_18"
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 183
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f3a767ed60aab00800000000000000
+      internalID: 840491832998248253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_19"
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 183
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3f2b9d84dd56240800000000000000
+      internalID: 4784473484110787581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Men\xFA principal_20"
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 181
+        width: 119
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a846da3a5d00e20800000000000000
+      internalID: 3314884224710117991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Men\xFA principal_0": -3464827867063289828
+      "Men\xFA principal_1": -5819446413296407259
+      "Men\xFA principal_10": -4547271494692131843
+      "Men\xFA principal_11": -8639446065422874753
+      "Men\xFA principal_12": -5321067606966720076
+      "Men\xFA principal_13": -6851274434164610801
+      "Men\xFA principal_14": -8458221022234484149
+      "Men\xFA principal_15": -4265006134726683175
+      "Men\xFA principal_16": -5079887514633593330
+      "Men\xFA principal_17": 3780141963789040995
+      "Men\xFA principal_18": 840491832998248253
+      "Men\xFA principal_19": 4784473484110787581
+      "Men\xFA principal_2": 4610875638921335911
+      "Men\xFA principal_20": 3314884224710117991
+      "Men\xFA principal_3": -7336244569487717387
+      "Men\xFA principal_4": 9110276481442020684
+      "Men\xFA principal_5": 5007981338177233321
+      "Men\xFA principal_6": 6448635999160686987
+      "Men\xFA principal_7": 345278806530058035
+      "Men\xFA principal_8": -628331226629046438
+      "Men\xFA principal_9": -5470585733826820069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

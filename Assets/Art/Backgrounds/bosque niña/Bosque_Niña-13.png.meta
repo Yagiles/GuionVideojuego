@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: abd29e5928d523f4091458a3d6b99bfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2080575615668137853
+    second: "Bosque_Nin\u0303a-13_0"
+  - first:
+      213: 7169575023803856922
+    second: "Bosque_Nin\u0303a-13_1"
+  - first:
+      213: -4676709220848274562
+    second: "Bosque_Nin\u0303a-13_2"
+  - first:
+      213: 6150181738035547581
+    second: "Bosque_Nin\u0303a-13_3"
+  - first:
+      213: -1621601463000127839
+    second: "Bosque_Nin\u0303a-13_4"
+  - first:
+      213: 7225650784174105561
+    second: "Bosque_Nin\u0303a-13_5"
+  - first:
+      213: 1670957754677038742
+    second: "Bosque_Nin\u0303a-13_6"
+  - first:
+      213: -4400682587826571198
+    second: "Bosque_Nin\u0303a-13_7"
+  - first:
+      213: -6139796115255293575
+    second: "Bosque_Nin\u0303a-13_8"
+  - first:
+      213: -7824275700790890195
+    second: "Bosque_Nin\u0303a-13_9"
+  - first:
+      213: 2735467061213273720
+    second: "Bosque_Nin\u0303a-13_10"
+  - first:
+      213: 7708243154027378148
+    second: "Bosque_Nin\u0303a-13_11"
+  - first:
+      213: -5525803091316964219
+    second: "Bosque_Nin\u0303a-13_12"
+  - first:
+      213: 5460679406292588880
+    second: "Bosque_Nin\u0303a-13_13"
+  - first:
+      213: 4234940216481023379
+    second: "Bosque_Nin\u0303a-13_14"
+  - first:
+      213: 8551196859941974040
+    second: "Bosque_Nin\u0303a-13_15"
+  - first:
+      213: 1347990433300107860
+    second: "Bosque_Nin\u0303a-13_16"
+  - first:
+      213: 5726479752170512992
+    second: "Bosque_Nin\u0303a-13_17"
+  - first:
+      213: 3250059330400898181
+    second: "Bosque_Nin\u0303a-13_18"
+  - first:
+      213: 8782540917224586281
+    second: "Bosque_Nin\u0303a-13_19"
+  - first:
+      213: -4131039084349317099
+    second: "Bosque_Nin\u0303a-13_20"
+  - first:
+      213: 2540425261159917723
+    second: "Bosque_Nin\u0303a-13_21"
+  - first:
+      213: 7087411233273441472
+    second: "Bosque_Nin\u0303a-13_22"
+  - first:
+      213: 3799870699483442226
+    second: "Bosque_Nin\u0303a-13_23"
+  - first:
+      213: 4830262600960320340
+    second: "Bosque_Nin\u0303a-13_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_0"
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 601
+        width: 1226
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380d2cb308f4023e0800000000000000
+      internalID: -2080575615668137853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_1"
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 912
+        width: 65
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1877548f727f7360800000000000000
+      internalID: 7169575023803856922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_2"
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 966
+        width: 342
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e737b8dedbdf81fb0800000000000000
+      internalID: -4676709220848274562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_3"
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 911
+        width: 242
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd04b7a4b5d95550800000000000000
+      internalID: 6150181738035547581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_4"
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 972
+        width: 157
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6af9e9f0aee79e0800000000000000
+      internalID: -1621601463000127839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_5"
+      rect:
+        serializedVersion: 2
+        x: 4207
+        y: 983
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d368b5ea1ba64460800000000000000
+      internalID: 7225650784174105561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_6"
+      rect:
+        serializedVersion: 2
+        x: 4730
+        y: 1000
+        width: 338
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e853a893f603710800000000000000
+      internalID: 1670957754677038742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_7"
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 679
+        width: 82
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248b95f8082ade2c0800000000000000
+      internalID: -4400682587826571198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_8"
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 822
+        width: 70
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97982e496ff0bcaa0800000000000000
+      internalID: -6139796115255293575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_9"
+      rect:
+        serializedVersion: 2
+        x: 6863
+        y: 912
+        width: 242
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2173a574b69a6390800000000000000
+      internalID: -7824275700790890195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_10"
+      rect:
+        serializedVersion: 2
+        x: 7022
+        y: 973
+        width: 157
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e166e8cc456f520800000000000000
+      internalID: 2735467061213273720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_11"
+      rect:
+        serializedVersion: 2
+        x: 7197
+        y: 984
+        width: 109
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5732efe4e29fa60800000000000000
+      internalID: 7708243154027378148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_12"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 765
+        width: 65
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5840c4b8d576053b0800000000000000
+      internalID: -5525803091316964219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_13"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 819
+        width: 342
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0595c54fcfa38cb40800000000000000
+      internalID: 5460679406292588880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 566
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3950e5070b785ca30800000000000000
+      internalID: 4234940216481023379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_15"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 185
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810f649ec34fba670800000000000000
+      internalID: 8551196859941974040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_16"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 170
+        width: 96
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4525a79382605b210800000000000000
+      internalID: 1347990433300107860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_17"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 157
+        width: 91
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06227919efa887f40800000000000000
+      internalID: 5726479752170512992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_18"
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 163
+        width: 137
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c4d7fcdb78a1d20800000000000000
+      internalID: 3250059330400898181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_19"
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 151
+        width: 113
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c318cae6ad1e970800000000000000
+      internalID: 8782540917224586281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_20"
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 168
+        width: 147
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510aa1807d99ba6c0800000000000000
+      internalID: -4131039084349317099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_21"
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 155
+        width: 304
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98add5b057614320800000000000000
+      internalID: 2540425261159917723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_22"
+      rect:
+        serializedVersion: 2
+        x: 7015
+        y: 166
+        width: 185
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc606847fa8b5260800000000000000
+      internalID: 7087411233273441472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_23"
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 176
+        width: 96
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c2023c44adbb430800000000000000
+      internalID: 3799870699483442226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bosque_Nin\u0303a-13_24"
+      rect:
+        serializedVersion: 2
+        x: 7297
+        y: 166
+        width: 91
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45328166e3a880340800000000000000
+      internalID: 4830262600960320340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Bosque_Nin\u0303a-13_0": -2080575615668137853
+      "Bosque_Nin\u0303a-13_1": 7169575023803856922
+      "Bosque_Nin\u0303a-13_10": 2735467061213273720
+      "Bosque_Nin\u0303a-13_11": 7708243154027378148
+      "Bosque_Nin\u0303a-13_12": -5525803091316964219
+      "Bosque_Nin\u0303a-13_13": 5460679406292588880
+      "Bosque_Nin\u0303a-13_14": 4234940216481023379
+      "Bosque_Nin\u0303a-13_15": 8551196859941974040
+      "Bosque_Nin\u0303a-13_16": 1347990433300107860
+      "Bosque_Nin\u0303a-13_17": 5726479752170512992
+      "Bosque_Nin\u0303a-13_18": 3250059330400898181
+      "Bosque_Nin\u0303a-13_19": 8782540917224586281
+      "Bosque_Nin\u0303a-13_2": -4676709220848274562
+      "Bosque_Nin\u0303a-13_20": -4131039084349317099
+      "Bosque_Nin\u0303a-13_21": 2540425261159917723
+      "Bosque_Nin\u0303a-13_22": 7087411233273441472
+      "Bosque_Nin\u0303a-13_23": 3799870699483442226
+      "Bosque_Nin\u0303a-13_24": 4830262600960320340
+      "Bosque_Nin\u0303a-13_3": 6150181738035547581
+      "Bosque_Nin\u0303a-13_4": -1621601463000127839
+      "Bosque_Nin\u0303a-13_5": 7225650784174105561
+      "Bosque_Nin\u0303a-13_6": 1670957754677038742
+      "Bosque_Nin\u0303a-13_7": -4400682587826571198
+      "Bosque_Nin\u0303a-13_8": -6139796115255293575
+      "Bosque_Nin\u0303a-13_9": -7824275700790890195
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

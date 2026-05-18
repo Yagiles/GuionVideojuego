@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: d1f254a6bc620af42a7320d210bb2629
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1465137240202501570
+    second: Mercado-10.3_0
+  - first:
+      213: 7641162927646910280
+    second: Mercado-10.3_1
+  - first:
+      213: -4367009019642128123
+    second: Mercado-10.3_2
+  - first:
+      213: 2886677667062138281
+    second: Mercado-10.3_3
+  - first:
+      213: 4307492080167599677
+    second: Mercado-10.3_4
+  - first:
+      213: 8906755473659080777
+    second: Mercado-10.3_5
+  - first:
+      213: 7008248896355523723
+    second: Mercado-10.3_6
+  - first:
+      213: -717908387657146339
+    second: Mercado-10.3_7
+  - first:
+      213: -5892075761872777091
+    second: Mercado-10.3_8
+  - first:
+      213: -1401123298187364756
+    second: Mercado-10.3_9
+  - first:
+      213: -7184862414454055319
+    second: Mercado-10.3_10
+  - first:
+      213: 3626002293518614963
+    second: Mercado-10.3_11
+  - first:
+      213: 6322001631023191225
+    second: Mercado-10.3_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mercado-10.3_0
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2585
+        width: 250
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd577dae86355410800000000000000
+      internalID: 1465137240202501570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2468
+        width: 619
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472745b23dda0a60800000000000000
+      internalID: 7641162927646910280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_2
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 2446
+        width: 205
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509dd4d1f644563c0800000000000000
+      internalID: -4367009019642128123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2334
+        width: 448
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5ca4e3b0a8f0820800000000000000
+      internalID: 2886677667062138281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_4
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2301
+        width: 257
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3eb23f893947cb30800000000000000
+      internalID: 4307492080167599677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2054
+        width: 401
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94037bcc9e62b9b70800000000000000
+      internalID: 8906755473659080777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_6
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1700
+        width: 762
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c5bcc6d3d424160800000000000000
+      internalID: 7008248896355523723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_7
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1515
+        width: 205
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d102c64002a7906f0800000000000000
+      internalID: -717908387657146339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_8
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1208
+        width: 546
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7052e7ef442b3ea0800000000000000
+      internalID: -5892075761872777091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 639
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66b405a8c53e8ce0800000000000000
+      internalID: -1401123298187364756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_10
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 885
+        width: 675
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e196a73bd3a4c90800000000000000
+      internalID: -7184862414454055319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_11
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 588
+        width: 515
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1cde3efd5225230800000000000000
+      internalID: 3626002293518614963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mercado-10.3_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 188
+        width: 2105
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4d39eecf24cb750800000000000000
+      internalID: 6322001631023191225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mercado-10.3_0: 1465137240202501570
+      Mercado-10.3_1: 7641162927646910280
+      Mercado-10.3_10: -7184862414454055319
+      Mercado-10.3_11: 3626002293518614963
+      Mercado-10.3_12: 6322001631023191225
+      Mercado-10.3_2: -4367009019642128123
+      Mercado-10.3_3: 2886677667062138281
+      Mercado-10.3_4: 4307492080167599677
+      Mercado-10.3_5: 8906755473659080777
+      Mercado-10.3_6: 7008248896355523723
+      Mercado-10.3_7: -717908387657146339
+      Mercado-10.3_8: -5892075761872777091
+      Mercado-10.3_9: -1401123298187364756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
