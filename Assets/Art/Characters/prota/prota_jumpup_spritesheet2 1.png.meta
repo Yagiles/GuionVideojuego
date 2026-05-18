@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 8bef423386a45f0469c087078e4743a0
+guid: 4a584aa0e6568fd42aa22ec332030cdc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 487918854648638391
-    second: prota_jumpup_spritesheet_0
+      213: 3403732382793482226
+    second: prota_jumpup_spritesheet2 1_0
   - first:
-      213: 921790148310555181
-    second: prota_jumpup_spritesheet_1
+      213: 6385431862980864420
+    second: prota_jumpup_spritesheet2 1_1
   - first:
-      213: -3109342986962826900
-    second: prota_jumpup_spritesheet_2
+      213: 2580374268433392761
+    second: prota_jumpup_spritesheet2 1_2
   - first:
-      213: 8419638249466302
-    second: prota_jumpup_spritesheet_3
+      213: 8143004424844517758
+    second: prota_jumpup_spritesheet2 1_3
   - first:
-      213: -307935185572474635
-    second: prota_jumpup_spritesheet_4
+      213: -929586659347440599
+    second: prota_jumpup_spritesheet2 1_4
   - first:
-      213: 4754552415759366495
-    second: prota_jumpup_spritesheet_5
+      213: 4130165174093085605
+    second: prota_jumpup_spritesheet2 1_5
   - first:
-      213: 4270801093053938709
-    second: prota_jumpup_spritesheet_6
+      213: 8505097612995591751
+    second: prota_jumpup_spritesheet2 1_6
   - first:
-      213: -2063015672505533147
-    second: prota_jumpup_spritesheet_7
+      213: -8360334373532439052
+    second: prota_jumpup_spritesheet2 1_7
   - first:
-      213: 1437557664825162340
-    second: prota_jumpup_spritesheet_8
+      213: -4716251436295027863
+    second: prota_jumpup_spritesheet2 1_8
   - first:
-      213: -2316053009588133631
-    second: prota_jumpup_spritesheet_9
+      213: 5028868185323480212
+    second: prota_jumpup_spritesheet2 1_9
   - first:
-      213: -486085335285529993
-    second: prota_jumpup_spritesheet_10
+      213: -1031089748542409184
+    second: prota_jumpup_spritesheet2 1_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,10 +130,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_0
+      name: prota_jumpup_spritesheet2 1_0
       rect:
         serializedVersion: 2
-        x: 138
+        x: 174
         y: 104
         width: 234
         height: 345
@@ -145,17 +145,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bb2c8afc9f65c600800000000000000
-      internalID: 487918854648638391
+      spriteID: 2ff36e2819c7c3f20800000000000000
+      internalID: 3403732382793482226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_1
+      name: prota_jumpup_spritesheet2 1_1
       rect:
         serializedVersion: 2
-        x: 441
+        x: 772
         y: 104
         width: 238
         height: 341
@@ -167,17 +167,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2a518b814bdacc00800000000000000
-      internalID: 921790148310555181
+      spriteID: 4a96f6aa27c9d9850800000000000000
+      internalID: 6385431862980864420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_2
+      name: prota_jumpup_spritesheet2 1_2
       rect:
         serializedVersion: 2
-        x: 761
+        x: 1371
         y: 104
         width: 240
         height: 338
@@ -189,17 +189,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c698a31070569d4d0800000000000000
-      internalID: -3109342986962826900
+      spriteID: 974e789c9b45fc320800000000000000
+      internalID: 2580374268433392761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_3
+      name: prota_jumpup_spritesheet2 1_3
       rect:
         serializedVersion: 2
-        x: 1068
+        x: 1969
         y: 104
         width: 244
         height: 335
@@ -211,19 +211,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb92ffacd99ed1000800000000000000
-      internalID: 8419638249466302
+      spriteID: e71aa438163c10170800000000000000
+      internalID: 8143004424844517758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_4
+      name: prota_jumpup_spritesheet2 1_4
       rect:
         serializedVersion: 2
-        x: 1383
+        x: 2567
         y: 104
-        width: 246
+        width: 247
         height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -233,17 +233,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f0db1a849ef9bbf0800000000000000
-      internalID: -307935185572474635
+      spriteID: 92c57a5cbd17913f0800000000000000
+      internalID: -929586659347440599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_5
+      name: prota_jumpup_spritesheet2 1_5
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 3163
         y: 104
         width: 249
         height: 331
@@ -255,17 +255,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f59ff4f3b309bf140800000000000000
-      internalID: 4754552415759366495
+      spriteID: 5abf181e75b415930800000000000000
+      internalID: 4130165174093085605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_6
+      name: prota_jumpup_spritesheet2 1_6
       rect:
         serializedVersion: 2
-        x: 2021
+        x: 3762
         y: 104
         width: 247
         height: 334
@@ -277,17 +277,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51c74d967fee44b30800000000000000
-      internalID: 4270801093053938709
+      spriteID: 74eff92973d280670800000000000000
+      internalID: 8505097612995591751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_7
+      name: prota_jumpup_spritesheet2 1_7
       rect:
         serializedVersion: 2
-        x: 2339
+        x: 4358
         y: 104
         width: 244
         height: 337
@@ -299,19 +299,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52d7e3a1d22be53e0800000000000000
-      internalID: -2063015672505533147
+      spriteID: 4fd6c16ae202afb80800000000000000
+      internalID: -8360334373532439052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_8
+      name: prota_jumpup_spritesheet2 1_8
       rect:
         serializedVersion: 2
-        x: 2639
+        x: 4955
         y: 104
-        width: 241
+        width: 240
         height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -321,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46a3b04641b33f310800000000000000
-      internalID: 1437557664825162340
+      spriteID: 96385347e428c8eb0800000000000000
+      internalID: -4716251436295027863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_9
+      name: prota_jumpup_spritesheet2 1_9
       rect:
         serializedVersion: 2
-        x: 2931
+        x: 5551
         y: 104
         width: 237
-        height: 346
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,19 +343,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 101668a0f0abbdfd0800000000000000
-      internalID: -2316053009588133631
+      spriteID: 494287078f02ac540800000000000000
+      internalID: 5028868185323480212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: prota_jumpup_spritesheet_10
+      name: prota_jumpup_spritesheet2 1_10
       rect:
         serializedVersion: 2
-        x: 3227
+        x: 6147
         y: 104
-        width: 234
+        width: 235
         height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -365,8 +365,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77287c386f31149f0800000000000000
-      internalID: -486085335285529993
+      spriteID: 026359e2655d0b1f0800000000000000
+      internalID: -1031089748542409184
       vertices: []
       indices: 
       edges: []
@@ -385,17 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      prota_jumpup_spritesheet_0: 487918854648638391
-      prota_jumpup_spritesheet_1: 921790148310555181
-      prota_jumpup_spritesheet_10: -486085335285529993
-      prota_jumpup_spritesheet_2: -3109342986962826900
-      prota_jumpup_spritesheet_3: 8419638249466302
-      prota_jumpup_spritesheet_4: -307935185572474635
-      prota_jumpup_spritesheet_5: 4754552415759366495
-      prota_jumpup_spritesheet_6: 4270801093053938709
-      prota_jumpup_spritesheet_7: -2063015672505533147
-      prota_jumpup_spritesheet_8: 1437557664825162340
-      prota_jumpup_spritesheet_9: -2316053009588133631
+      prota_jumpup_spritesheet2 1_0: 3403732382793482226
+      prota_jumpup_spritesheet2 1_1: 6385431862980864420
+      prota_jumpup_spritesheet2 1_10: -1031089748542409184
+      prota_jumpup_spritesheet2 1_2: 2580374268433392761
+      prota_jumpup_spritesheet2 1_3: 8143004424844517758
+      prota_jumpup_spritesheet2 1_4: -929586659347440599
+      prota_jumpup_spritesheet2 1_5: 4130165174093085605
+      prota_jumpup_spritesheet2 1_6: 8505097612995591751
+      prota_jumpup_spritesheet2 1_7: -8360334373532439052
+      prota_jumpup_spritesheet2 1_8: -4716251436295027863
+      prota_jumpup_spritesheet2 1_9: 5028868185323480212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

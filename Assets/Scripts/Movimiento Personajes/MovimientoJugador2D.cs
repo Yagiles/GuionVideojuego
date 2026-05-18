@@ -37,7 +37,9 @@ public class MovimientoJugador2D : MonoBehaviour
         }
 
         // Animación
-        animator.SetFloat("velocidad", Mathf.Abs(movimientoX));
+        animator.SetFloat("velocidad", Mathf.Abs(movimientoX));  //mov horizontal
+        animator.SetBool("enSuelo", enSuelo);
+        animator.SetFloat("velocidadY", rb.linearVelocity.y);
     }
 
     void FixedUpdate()

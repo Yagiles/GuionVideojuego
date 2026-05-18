@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 2b1c0e3ac652d594b8eeb4bd90c8de82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 811054866289947286
+    second: prota_jumpup_spritesheet2_0
+  - first:
+      213: 696108598498060654
+    second: prota_jumpup_spritesheet2_1
+  - first:
+      213: 2921674748333956677
+    second: prota_jumpup_spritesheet2_2
+  - first:
+      213: -2974044608118912085
+    second: prota_jumpup_spritesheet2_3
+  - first:
+      213: 8758414203884751018
+    second: prota_jumpup_spritesheet2_4
+  - first:
+      213: 8554415559564841248
+    second: prota_jumpup_spritesheet2_5
+  - first:
+      213: 8238624975835435653
+    second: prota_jumpup_spritesheet2_6
+  - first:
+      213: -242444470679303107
+    second: prota_jumpup_spritesheet2_7
+  - first:
+      213: 4467487357054084448
+    second: prota_jumpup_spritesheet2_8
+  - first:
+      213: -1793238797696395741
+    second: prota_jumpup_spritesheet2_9
+  - first:
+      213: 4779101864556354577
+    second: prota_jumpup_spritesheet2_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692709e8a12714b00800000000000000
+      internalID: 811054866289947286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69629a051319a900800000000000000
+      internalID: 696108598498060654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e9ca334bfdb8820800000000000000
+      internalID: 2921674748333956677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab08e2af221ab6d0800000000000000
+      internalID: -2974044608118912085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8494a70532c8970800000000000000
+      internalID: 8758414203884751018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021dfe0d0a367b670800000000000000
+      internalID: 8554415559564841248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5821552f3c9755270800000000000000
+      internalID: 8238624975835435653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c0767d90aa2acf0800000000000000
+      internalID: -242444470679303107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065e1cbd414bffd30800000000000000
+      internalID: 4467487357054084448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3269bd180d22d17e0800000000000000
+      internalID: -1793238797696395741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota_jumpup_spritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 0
+        width: 597
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd94633d7c25240800000000000000
+      internalID: 4779101864556354577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5229c5efb14880d47a06576bef284957
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":597.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      prota_jumpup_spritesheet2_0: 811054866289947286
+      prota_jumpup_spritesheet2_1: 696108598498060654
+      prota_jumpup_spritesheet2_10: 4779101864556354577
+      prota_jumpup_spritesheet2_2: 2921674748333956677
+      prota_jumpup_spritesheet2_3: -2974044608118912085
+      prota_jumpup_spritesheet2_4: 8758414203884751018
+      prota_jumpup_spritesheet2_5: 8554415559564841248
+      prota_jumpup_spritesheet2_6: 8238624975835435653
+      prota_jumpup_spritesheet2_7: -242444470679303107
+      prota_jumpup_spritesheet2_8: 4467487357054084448
+      prota_jumpup_spritesheet2_9: -1793238797696395741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
