@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Habla con los invitados
   descripcion: Habla con todos los invitados de la boda
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tipoCompletado: 3
+  objetosRequeridos: []
+  nombresNPCsEnOrden:
+  - "Ni\xF1a"
+  - Novia
+  - Rey

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class MisionUI : MonoBehaviour
@@ -34,6 +34,12 @@ public class MisionUI : MonoBehaviour
         }
 
         panelMision.SetActive(true);
-        textoMision.text = " " + mision.tituloMision + "\n" + mision.descripcion;
+
+        // Si es secuencia de diálogos, muestra con quién hablar ahora
+        string npcActual = MisionManager.Instance.GetNPCActual();
+        if (npcActual != null)
+            textoMision.text = "" + mision.tituloMision + "\nHabla con: " + npcActual;
+        else
+            textoMision.text = "" + mision.tituloMision + "\n" + mision.descripcion;
     }
 }

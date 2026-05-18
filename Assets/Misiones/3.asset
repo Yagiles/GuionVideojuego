@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Habla con el Rey
   descripcion: "Dir\xEDgete al trono y habla con el Rey\n"
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tipoCompletado: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden:
+  - Rey

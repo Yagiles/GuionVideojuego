@@ -16,6 +16,9 @@ public class NPCInteractuable : MonoBehaviour
     public MonoBehaviour scriptMovimientoJugador;
     public Rigidbody2D rbJugador;
 
+    [Header("Misiones")]
+    public bool completaMision = false;
+
     private bool jugadorCerca = false;
     private bool dialogoEnCurso = false;
     private bool esperandoSoltarE = false;
@@ -83,6 +86,10 @@ public class NPCInteractuable : MonoBehaviour
         dialogoEnCurso = false;
         esperandoSoltarE = true;
         dialogoTerminado = true;
+
+        // Notifica al MisionManager si existe
+        if (completaMision && MisionManager.Instance != null)
+            MisionManager.Instance.NotificarDialogoTerminado(idPersonaje);
     }
 
     void BloquearMovimientoJugador()
