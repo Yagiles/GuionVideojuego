@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &181877924715884096
+--- !u!1 &5228719407757635817
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5221841232981295822}
-  - component: {fileID: 7398146860073206564}
-  - component: {fileID: 3742728635913696159}
-  - component: {fileID: 8015755384425385261}
+  - component: {fileID: 6525228994797714875}
+  - component: {fileID: 1225681484938774240}
+  - component: {fileID: -9006517410507953467}
+  - component: {fileID: 3498230562006649453}
   m_Layer: 0
-  m_Name: Flor.Unida_0
+  m_Name: Flor.Unida_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5221841232981295822
+--- !u!4 &6525228994797714875
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181877924715884096}
+  m_GameObject: {fileID: 5228719407757635817}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.048187, y: -1.34, z: 0}
-  m_LocalScale: {x: 0.086656, y: 0.086656, z: 0.086656}
+  m_LocalPosition: {x: 5.49807, y: 0.28832, z: 0}
+  m_LocalScale: {x: 0.10952039, y: 0.10952039, z: 0.10952039}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7398146860073206564
+--- !u!212 &1225681484938774240
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181877924715884096}
+  m_GameObject: {fileID: 5228719407757635817}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -93,13 +93,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!60 &3742728635913696159
+--- !u!60 &-9006517410507953467
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181877924715884096}
+  m_GameObject: {fileID: 5228719407757635817}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -1444,13 +1444,13 @@ PolygonCollider2D:
       - {x: 0.21499999, y: 3.4499998}
       - {x: 0.225, y: 3.4499998}
   m_UseDelaunayMesh: 1
---- !u!114 &8015755384425385261
+--- !u!114 &3498230562006649453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181877924715884096}
+  m_GameObject: {fileID: 5228719407757635817}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fa0432d8985b014c8b6c9dfb868cd48, type: 3}

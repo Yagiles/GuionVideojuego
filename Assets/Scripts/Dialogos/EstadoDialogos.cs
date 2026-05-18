@@ -22,11 +22,14 @@ public class EstadoDialogos : MonoBehaviour
 
     public void MarcarComoHablado(string id)
     {
-        dialogosCompletados.Add(id);
+        if (!string.IsNullOrEmpty(id))
+        {
+            dialogosCompletados.Add(id);
+        }
     }
 
     public bool HaHabladoCon(string id)
     {
-        return dialogosCompletados.Contains(id);
+        return !string.IsNullOrEmpty(id) && dialogosCompletados.Contains(id);
     }
 }
