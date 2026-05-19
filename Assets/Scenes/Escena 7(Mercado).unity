@@ -557,19 +557,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Size.x
-      value: 10.374134
+      value: 11.975437
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Size.y
-      value: 4.26684
+      value: 5.9114714
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Offset.x
-      value: -0.36610293
+      value: -0.12242627
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Offset.y
-      value: -0.10047197
+      value: -0.92278767
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_IsTrigger
@@ -2897,7 +2897,7 @@ MonoBehaviour:
   objetoNecesario: {fileID: 11400000, guid: e9c81ecb4d7584f48a2af2e2f388f0ec, type: 2}
   scriptMovimientoJugador: {fileID: 1760130910}
   rbJugador: {fileID: 1760130909}
-  colliderBloqueoTemporal: {fileID: 1010639124}
+  colliderBloqueoTemporal: {fileID: 0}
   completaMision: 0
 --- !u!95 &1434664877
 Animator:
