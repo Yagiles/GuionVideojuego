@@ -3138,6 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaObjeto
   dialogoNecesario: {fileID: 11400000, guid: 1c4f3cc859dbcd841991e92dbbb7ef48, type: 2}
+  objetoBuscado: {fileID: 0}
   avisoBuscar: {fileID: 178141224953404231}
   panelResultado: {fileID: 178141224953404232}
   textoResultado: {fileID: 178141224953404230}
@@ -3296,6 +3297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673559274}
   - component: {fileID: 1673559273}
+  - component: {fileID: 1673559275}
   m_Layer: 0
   m_Name: TriggerDialogoGuia
   m_TagString: Untagged
@@ -3364,6 +3366,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673559275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673559272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6110bcc467e5d45966d7dea7821cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerCinematicaDialogo
+  dialogo: {fileID: 11400000, guid: f90be2eabb7e26d488ba4694f9bd876c, type: 2}
+  dialogoManager: {fileID: 218628782}
+  scriptMovimientoJugador: {fileID: 5331452949434317343}
+  scriptMovimientoGuia: {fileID: 5331452949434317343}
+  rbJugador: {fileID: 904010881075284424}
+  rbGuia: {fileID: 2140410537}
+  pantallaNegra: {fileID: 0}
+  duracionFundido: 1
+  jugador: {fileID: 0}
+  destinoJugador: {fileID: 0}
+  guia: {fileID: 0}
+  posicionInicialGuiaCinematica: {fileID: 0}
+  destinoGuia: {fileID: 0}
+  personajes: []
+  destinosPersonajes: []
+  reactivarMovimientoGuiaAlFinal: 1
+  destruirTrasActivarse: 1
+  objetosActivarAlFinal: []
+  objetosDesactivarAlFinal: []
 --- !u!1 &1717362379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3624,7 @@ MonoBehaviour:
   objetoNecesario: {fileID: 0}
   scriptMovimientoJugador: {fileID: 5331452949434317343}
   rbJugador: {fileID: 904010881075284424}
+  colliderBloqueoTemporal: {fileID: 0}
   completaMision: 0
 --- !u!1 &1805769437
 GameObject:
@@ -4160,6 +4194,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2055955387}
   m_SourcePrefab: {fileID: 100100000, guid: 2c8657540bc6cbb468122c09e089d907, type: 3}
+--- !u!50 &2140410537 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3073018293914226319, guid: 2c8657540bc6cbb468122c09e089d907, type: 3}
+  m_PrefabInstance: {fileID: 2140410536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &178141224953404229
 PrefabInstance:
   m_ObjectHideFlags: 0
