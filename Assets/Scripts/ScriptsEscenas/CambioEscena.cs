@@ -14,7 +14,7 @@ public class CambioEscena : MonoBehaviour
 
     [Header("Condicion dialogo")]
     public bool requiereDialogoPrevio = false;
-    public DialogoData dialogoNecesario;
+    public DialogoData[] dialogosNecesarios;
 
     [Header("Fundido")]
     public CanvasGroup pantallaNegra;
@@ -44,22 +44,32 @@ public class CambioEscena : MonoBehaviour
                     return;
                 }
 
-                if (dialogoNecesario == null)
+                if (dialogosNecesarios == null || dialogosNecesarios.Length == 0)
                 {
-                    Debug.LogWarning("Falta asignar el DialogoData necesario");
+                    Debug.LogWarning("Falta asignar al menos un DialogoData necesario");
                     return;
                 }
 
-                if (!EstadoDialogos.instancia.HaHabladoCon(dialogoNecesario.name))
+                for (int i = 0; i < dialogosNecesarios.Length; i++)
                 {
-                    Debug.Log("Todavia no se ha completado el dialogo necesario: " + dialogoNecesario.name);
-                    return;
+                    if (dialogosNecesarios[i] == null)
+                    {
+                        Debug.LogWarning("Hay un DialogoData necesario sin asignar en la posicion " + i);
+                        return;
+                    }
+
+                    if (!EstadoDialogos.instancia.HaHabladoCon(dialogosNecesarios[i].name))
+                    {
+                        Debug.Log("Todavia no se ha completado el dialogo necesario: " + dialogosNecesarios[i].name);
+                        return;
+                    }
                 }
             }
 
             StartCoroutine(CambiarEscena());
         }
     }
+
     private IEnumerator CambiarEscena()
     {
         cambiandoEscena = true;

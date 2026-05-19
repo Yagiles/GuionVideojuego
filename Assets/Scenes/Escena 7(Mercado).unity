@@ -557,19 +557,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Size.x
-      value: 11.975437
+      value: 9.53828
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Size.y
-      value: 5.9114714
+      value: 4.4256806
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Offset.x
-      value: -0.12242627
+      value: 0.047248363
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_Offset.y
-      value: -0.92278767
+      value: -0.1798923
       objectReference: {fileID: 0}
     - target: {fileID: 6976472071711480496, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       propertyPath: m_IsTrigger
@@ -669,10 +669,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7584305113526040270, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1434664873}
+      addedObject: {fileID: 1434664877}
     - targetCorrespondingSourceObject: {fileID: 7584305113526040270, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1434664877}
+      addedObject: {fileID: 1434664878}
   m_SourcePrefab: {fileID: 100100000, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
 --- !u!1 &520075379
 GameObject:
@@ -2877,28 +2877,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7584305113526040270, guid: fee2bce68d028764ab46a1ddd43d8fe4, type: 3}
   m_PrefabInstance: {fileID: 481571587}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1434664873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434664872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1db36005acf58fb4abffcd726c8b7e70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuable
-  idPersonaje: Mapache
-  dialogo: {fileID: 11400000, guid: 8f4864441ace6ca47b373f7c11b48fbd, type: 2}
-  dialogoManager: {fileID: 1847226556}
-  idsNecesariosParaHablar: []
-  requiereObjeto: 1
-  objetoNecesario: {fileID: 11400000, guid: e9c81ecb4d7584f48a2af2e2f388f0ec, type: 2}
-  scriptMovimientoJugador: {fileID: 1760130910}
-  rbJugador: {fileID: 1760130909}
-  colliderBloqueoTemporal: {fileID: 0}
-  completaMision: 0
 --- !u!95 &1434664877
 Animator:
   serializedVersion: 7
@@ -2921,6 +2899,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1434664878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434664872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0299624a56594924e9d43d26d8629b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoMapacheObjeto
+  dialogoPrimeroNecesario: {fileID: 11400000, guid: eb73a2c7a31e5ba46b71d079bedfa82d, type: 2}
+  objetoNecesarioParaHablar: {fileID: 11400000, guid: e9c81ecb4d7584f48a2af2e2f388f0ec, type: 2}
+  dialogoMapacheObjeto: {fileID: 11400000, guid: 8f4864441ace6ca47b373f7c11b48fbd, type: 2}
+  dialogoManager: {fileID: 1847226556}
+  scriptMovimientoJugador: {fileID: 1760130910}
+  rbJugador: {fileID: 1760130909}
+  bloqueadorMovimientoLateral: {fileID: 1010639122}
 --- !u!1 &1465789835
 GameObject:
   m_ObjectHideFlags: 0
