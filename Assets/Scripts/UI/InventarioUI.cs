@@ -1,15 +1,17 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
 public class InventarioUI : MonoBehaviour
 {
+    public static InventarioUI Instance; // ← añade esta línea
+
     [Header("Slots (arrastrar los 4 Images)")]
     public Image[] iconosSlots = new Image[4];
     public Sprite spriteVacio;
 
-    [Header("Popup descripci�n")]
+    [Header("Popup descripción")]
     public GameObject panelPopup;
     public TMP_Text textoNombrePopup;
     public TMP_Text textoDescripcionPopup;
@@ -19,18 +21,27 @@ public class InventarioUI : MonoBehaviour
 
     void Awake()
     {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
         DontDestroyOnLoad(gameObject);
 
         canvasInventario = GameObject.Find("CanvasInventario");
         if (canvasInventario != null)
         {
             DontDestroyOnLoad(canvasInventario);
-            canvasInventario.SetActive(false); // Oculto al inicio
+            canvasInventario.SetActive(false);
         }
     }
 
     void Update()
     {
+        DialogoManager dm = FindFirstObjectByType<DialogoManager>();
+        if (dm != null && dm.dialogoActivo) return;
+
         for (int i = 0; i < teclas.Length; i++)
         {
             if (Input.GetKeyDown(teclas[i]))
@@ -64,7 +75,6 @@ public class InventarioUI : MonoBehaviour
 
     public void RefrescarUI()
     {
-        // Activa el canvas cuando se recoge el primer objeto
         if (canvasInventario != null && !canvasInventario.activeSelf)
             canvasInventario.SetActive(true);
 
@@ -72,9 +82,15 @@ public class InventarioUI : MonoBehaviour
         {
             ObjetoData objeto = InventarioManager.Instance.GetObjeto(i);
             if (objeto != null)
+            {
                 iconosSlots[i].sprite = objeto.icono;
+                iconosSlots[i].color = Color.white; // Muestra el sprite con colores reales
+            }
             else
-                iconosSlots[i].sprite = null;
+            {
+                iconosSlots[i].sprite = spriteVacio;
+                iconosSlots[i].color = new Color(0.3f, 0.15f, 0.05f, 1f); // Marrón oscuro para vacío
+            }
         }
     }
 

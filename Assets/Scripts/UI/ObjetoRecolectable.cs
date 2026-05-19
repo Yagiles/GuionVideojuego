@@ -10,7 +10,7 @@ public class ObjetoRecolectable : MonoBehaviour
         if (jugadorDentro && Input.GetKeyDown(KeyCode.F))
         {
             InventarioManager.Instance.AñadirObjeto(objetoData);
-            FindFirstObjectByType<InventarioUI>().RefrescarUI();
+            InventarioUI.Instance.RefrescarUI();
 
             if (MisionManager.Instance != null)
                 MisionManager.Instance.NotificarObjetoRecogido(objetoData);

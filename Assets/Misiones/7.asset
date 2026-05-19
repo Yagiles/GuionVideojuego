@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: "Busca informaci\xF3n"
-  descripcion: 'Habla con alguien en el mercado
+  descripcion: 'Busca el puesto de basura
 
 '
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tipoCompletado: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

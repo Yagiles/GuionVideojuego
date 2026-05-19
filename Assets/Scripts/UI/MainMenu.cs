@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [Header("Panel de controles")]
+    public GameObject panelControles;
     public void StartGame()
     {
         SceneManager.LoadScene("Escena 0(Puerta)");
@@ -10,7 +12,21 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
         Application.Quit();
-        // En el editor no cierra, esto es solo para build
+        #endif
     }
+
+    public void AbrirControles()
+    {
+        panelControles.SetActive(true);
+    }
+
+    public void CerrarControles()
+    {
+        panelControles.SetActive(false);
+    }
+
 }
