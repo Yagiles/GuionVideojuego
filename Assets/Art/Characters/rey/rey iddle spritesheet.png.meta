@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: f7975f63705d2b44d8896c625ac46815
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1083789403463718016
+    second: rey iddle spritesheet_0
+  - first:
+      213: -1056741677419824835
+    second: rey iddle spritesheet_1
+  - first:
+      213: -1135480236118235576
+    second: rey iddle spritesheet_2
+  - first:
+      213: 7525647072770918854
+    second: rey iddle spritesheet_3
+  - first:
+      213: -2305228770217772544
+    second: rey iddle spritesheet_4
+  - first:
+      213: -4168899492291615193
+    second: rey iddle spritesheet_5
+  - first:
+      213: -3551717689164524771
+    second: rey iddle spritesheet_6
+  - first:
+      213: -147394288557631215
+    second: rey iddle spritesheet_7
+  - first:
+      213: -4363241597518026862
+    second: rey iddle spritesheet_8
+  - first:
+      213: 554645745497277174
+    second: rey iddle spritesheet_9
+  - first:
+      213: -2196138162181116516
+    second: rey iddle spritesheet_10
+  - first:
+      213: -3518353101662364223
+    second: rey iddle spritesheet_11
+  - first:
+      213: -2202469660319154119
+    second: rey iddle spritesheet_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rey iddle spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 255
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08499c468b46a0f00800000000000000
+      internalID: 1083789403463718016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 55
+        width: 256
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d397a021b03b551f0800000000000000
+      internalID: -1056741677419824835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 55
+        width: 257
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84622b4cdb6fd30f0800000000000000
+      internalID: -1135480236118235576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 55
+        width: 258
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9087dd328707860800000000000000
+      internalID: 7525647072770918854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 54
+        width: 259
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ab829a5ae2200e0800000000000000
+      internalID: -2305228770217772544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 54
+        width: 260
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726e6a1eff71526c0800000000000000
+      internalID: -4168899492291615193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 53
+        width: 261
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1390ea5493c5bec0800000000000000
+      internalID: -3551717689164524771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 60
+        width: 260
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119d99ceca954fdf0800000000000000
+      internalID: -147394288557631215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 54
+        width: 259
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297eabe62e6a273c0800000000000000
+      internalID: -4363241597518026862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 55
+        width: 258
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f20c8ced5f72b700800000000000000
+      internalID: 554645745497277174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 55
+        width: 258
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9de3852affb581e0800000000000000
+      internalID: -2196138162181116516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 55
+        width: 257
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd550dbe7c4c2fc0800000000000000
+      internalID: -3518353101662364223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey iddle spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 55
+        width: 255
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9300a1c53814f61e0800000000000000
+      internalID: -2202469660319154119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rey iddle spritesheet_0: 1083789403463718016
+      rey iddle spritesheet_1: -1056741677419824835
+      rey iddle spritesheet_10: -2196138162181116516
+      rey iddle spritesheet_11: -3518353101662364223
+      rey iddle spritesheet_12: -2202469660319154119
+      rey iddle spritesheet_2: -1135480236118235576
+      rey iddle spritesheet_3: 7525647072770918854
+      rey iddle spritesheet_4: -2305228770217772544
+      rey iddle spritesheet_5: -4168899492291615193
+      rey iddle spritesheet_6: -3551717689164524771
+      rey iddle spritesheet_7: -147394288557631215
+      rey iddle spritesheet_8: -4363241597518026862
+      rey iddle spritesheet_9: 554645745497277174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

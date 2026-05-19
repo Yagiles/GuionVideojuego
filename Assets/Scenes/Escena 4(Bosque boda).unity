@@ -567,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 2169134219750956813, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: avisoBuscar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1298066490}
     - target: {fileID: 2169134219750956813, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: panelResultado
       value: 
@@ -575,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 2169134219750956813, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: textoResultado
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 698896249}
     - target: {fileID: 2748681209391852027, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: m_Size.x
       value: 1.1670208
@@ -3302,9 +3302,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaObjeto
   dialogoNecesario: {fileID: 11400000, guid: 1c4f3cc859dbcd841991e92dbbb7ef48, type: 2}
-  avisoBuscar: {fileID: 0}
+  objetoBuscado: {fileID: 0}
+  avisoBuscar: {fileID: 1298066490}
   panelResultado: {fileID: 729901540}
-  textoResultado: {fileID: 0}
+  textoResultado: {fileID: 698896249}
   contieneObjeto: 0
   prefabObjetoAparecer: {fileID: 0}
   puntoAparicion: {fileID: 0}

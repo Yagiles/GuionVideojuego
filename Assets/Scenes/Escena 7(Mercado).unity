@@ -2599,6 +2599,7 @@ MonoBehaviour:
   objetoNecesario: {fileID: 0}
   scriptMovimientoJugador: {fileID: 1760130910}
   rbJugador: {fileID: 1760130909}
+  colliderBloqueoTemporal: {fileID: 0}
   completaMision: 0
 --- !u!95 &1434664877
 Animator:
@@ -3490,6 +3491,18 @@ PrefabInstance:
     - target: {fileID: 6827299104529022383, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905393148324076075, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.03396219
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905393148324076075, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.03396219
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905393148324076075, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.03396219
       objectReference: {fileID: 0}
     - target: {fileID: 7371503846051895024, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: m_Pivot.x
