@@ -43,7 +43,7 @@ public class NPCInteractuable : MonoBehaviour
     {
         if (esperandoSoltarE)
         {
-            if (Input.GetKeyUp(KeyCode.E))
+            if (!Input.GetKey(KeyCode.E))
             {
                 esperandoSoltarE = false;
             }
@@ -67,6 +67,7 @@ public class NPCInteractuable : MonoBehaviour
         }
 
         dialogoEnCurso = true;
+
         if (colliderBloqueoTemporal != null)
         {
             colliderBloqueoTemporal.enabled = true;
@@ -123,7 +124,10 @@ public class NPCInteractuable : MonoBehaviour
 
     void TerminarDialogoNPC()
     {
-        EstadoDialogos.instancia.MarcarComoHablado(idPersonaje);
+        if (EstadoDialogos.instancia != null)
+        {
+            EstadoDialogos.instancia.MarcarComoHablado(idPersonaje);
+        }
 
         if (colliderBloqueoTemporal != null)
         {
@@ -175,6 +179,7 @@ public class NPCInteractuable : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             jugadorCerca = true;
+            esperandoSoltarE = false;
         }
     }
 

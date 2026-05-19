@@ -732,6 +732,7 @@ MonoBehaviour:
   contieneNina: 1
   ninaAActivar: {fileID: 1693043287}
   puntoAparicionNina: {fileID: 908802649}
+  BusquedaNina: {fileID: 169500402}
   dialogoManager: {fileID: 1944434680}
   dialogoAlEncontrarla: {fileID: 11400000, guid: e60ce8cedae98164abed4505a62f3bac, type: 2}
   objetosActivarAlEncontrar: []
@@ -1846,6 +1847,7 @@ MonoBehaviour:
   contieneNina: 0
   ninaAActivar: {fileID: 0}
   puntoAparicionNina: {fileID: 0}
+  BusquedaNina: {fileID: 169500402}
   dialogoManager: {fileID: 0}
   dialogoAlEncontrarla: {fileID: 0}
   objetosActivarAlEncontrar: []
@@ -2688,7 +2690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 488083010253764951, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: m_Name
-      value: "BusquedaNi\xF1a"
+      value: BusquedaNina
       objectReference: {fileID: 0}
     - target: {fileID: 2169134219750956813, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       propertyPath: avisoBuscar
@@ -2822,6 +2824,7 @@ MonoBehaviour:
   contieneNina: 0
   ninaAActivar: {fileID: 0}
   puntoAparicionNina: {fileID: 0}
+  BusquedaNina: {fileID: 169500402}
   dialogoManager: {fileID: 0}
   dialogoAlEncontrarla: {fileID: 0}
   objetosActivarAlEncontrar: []
@@ -3474,6 +3477,7 @@ MonoBehaviour:
   contieneNina: 0
   ninaAActivar: {fileID: 0}
   puntoAparicionNina: {fileID: 0}
+  BusquedaNina: {fileID: 169500402}
   dialogoManager: {fileID: 0}
   dialogoAlEncontrarla: {fileID: 0}
   objetosActivarAlEncontrar: []
