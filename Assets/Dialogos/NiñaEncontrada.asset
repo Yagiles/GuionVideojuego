@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: "Ni\xF1aEncontrada"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: "T\xFA"
+    texto: "\xA1Te pill\xE9!\r\n"
+  - nombrePersonaje: Lily
+    texto: "\xA1Ahhh! \xA1Me encontraste!"
+  - nombrePersonaje: Lily
+    texto: "\xA1Bien hecho! \xA1Gracias por jugar conmigo!\r\n"
+  - nombrePersonaje: Lily
+    texto: "Bueno. Tal y como promet\xED. Aqu\xED ten\xE9is.\r\n"
+  - nombrePersonaje: "T\xFA"
+    texto: 'Gracias.
+
+'
+  - nombrePersonaje: Lily
+    texto: "Espero pas\xE1rmelo tan bien siempre. \xA1Adi\xF3s, hasta pronto!\r\n"
+  avanceAutomatico: 0
+  duracionLinea: 2

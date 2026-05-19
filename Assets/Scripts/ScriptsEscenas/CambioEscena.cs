@@ -28,6 +28,14 @@ public class CambioEscena : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
+            DialogoManager dialogoManager = FindFirstObjectByType<DialogoManager>();
+
+            if (dialogoManager != null && dialogoManager.dialogoActivo)
+            {
+                Debug.Log("No puedes cambiar de escena mientras hay un dialogo activo");
+                return;
+            }
+
             if (requiereDialogoPrevio)
             {
                 if (EstadoDialogos.instancia == null)
@@ -52,7 +60,6 @@ public class CambioEscena : MonoBehaviour
             StartCoroutine(CambiarEscena());
         }
     }
-
     private IEnumerator CambiarEscena()
     {
         cambiandoEscena = true;

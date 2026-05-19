@@ -24,10 +24,10 @@ public class TriggerCinematicaDialogo : MonoBehaviour
 
     public Transform guia;
 
-    [Tooltip("Posición exacta donde se coloca el guía al EMPEZAR la cinemática")]
+    [Tooltip("Posicion exacta donde se coloca el guia al EMPEZAR la cinematica")]
     public Transform posicionInicialGuiaCinematica;
 
-    [Tooltip("Posición del guía DESPUÉS de la pantalla negra")]
+    [Tooltip("Posicion del guia DESPUES de la pantalla negra")]
     public Transform destinoGuia;
 
     [Header("Otros personajes")]
@@ -40,31 +40,42 @@ public class TriggerCinematicaDialogo : MonoBehaviour
     [Header("Solo una vez")]
     public bool destruirTrasActivarse = true;
 
+    [Header("Activar y desactivar al terminar")]
+    public GameObject[] objetosActivarAlFinal;
+    public GameObject[] objetosDesactivarAlFinal;
+
     private bool activado = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (activado) return;
 
-        if (collision.CompareTag("Player"))
+        if (!collision.CompareTag("Player")) return;
+
+        if (EstadoDialogos.instancia != null && dialogo != null)
         {
-            activado = true;
-
-            BloquearMovimiento();
-
-            // Colocar al guía exactamente donde quieres al inicio
-            if (guia != null && posicionInicialGuiaCinematica != null)
+            if (EstadoDialogos.instancia.HaHabladoCon(dialogo.name))
             {
-                guia.position = posicionInicialGuiaCinematica.position;
+                return;
             }
-
-            // Parar velocidad del guía
-            if (rbGuia != null)
-                rbGuia.linearVelocity = Vector2.zero;
-
-            dialogoManager.alTerminarDialogo = TerminarCinematica;
-            dialogoManager.IniciarDialogo(dialogo);
         }
+
+        activado = true;
+
+        BloquearMovimiento();
+
+        if (guia != null && posicionInicialGuiaCinematica != null)
+        {
+            guia.position = posicionInicialGuiaCinematica.position;
+        }
+
+        if (rbGuia != null)
+        {
+            rbGuia.linearVelocity = Vector2.zero;
+        }
+
+        dialogoManager.alTerminarDialogo = TerminarCinematica;
+        dialogoManager.IniciarDialogo(dialogo);
     }
 
     void BloquearMovimiento()
@@ -106,7 +117,24 @@ public class TriggerCinematicaDialogo : MonoBehaviour
             pantallaNegra.alpha = 1f;
         }
 
-        // Mover jugador y guía
+        // ACTIVAR Y DESACTIVAR COSAS MIENTRAS LA PANTALLA ESTA NEGRA
+        for (int i = 0; i < objetosDesactivarAlFinal.Length; i++)
+        {
+            if (objetosDesactivarAlFinal[i] != null)
+            {
+                objetosDesactivarAlFinal[i].SetActive(false);
+            }
+        }
+
+        for (int i = 0; i < objetosActivarAlFinal.Length; i++)
+        {
+            if (objetosActivarAlFinal[i] != null)
+            {
+                objetosActivarAlFinal[i].SetActive(true);
+            }
+        }
+
+        // Mover jugador y guia
         if (jugador != null && destinoJugador != null)
         {
             jugador.position = destinoJugador.position;
@@ -134,7 +162,7 @@ public class TriggerCinematicaDialogo : MonoBehaviour
             }
         }
 
-        // Parar velocidades después de moverlos
+        // Parar velocidades despues de moverlos
         if (rbJugador != null)
         {
             rbJugador.linearVelocity = Vector2.zero;
@@ -166,7 +194,7 @@ public class TriggerCinematicaDialogo : MonoBehaviour
         if (scriptMovimientoJugador != null)
             scriptMovimientoJugador.enabled = true;
 
-        // Reactivar o no el guía
+        // Reactivar o no el guia
         if (scriptMovimientoGuia != null && reactivarMovimientoGuiaAlFinal)
             scriptMovimientoGuia.enabled = true;
 
