@@ -220,7 +220,7 @@ MonoBehaviour:
   dialogo: {fileID: 11400000, guid: 1c4f3cc859dbcd841991e92dbbb7ef48, type: 2}
   dialogoManager: {fileID: 712259542}
   scriptMovimientoJugador: {fileID: 1608920851}
-  scriptMovimientoGuia: {fileID: 0}
+  scriptMovimientoGuia: {fileID: 2947655917461291149}
   rbJugador: {fileID: 1608920850}
   rbGuia: {fileID: 1608920850}
   pantallaNegra: {fileID: 0}
@@ -2643,8 +2643,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteractuable
   idPersonaje: NPCPociones
   dialogo: {fileID: 11400000, guid: d5dc05f9093155e44bc61fda1540d09a, type: 2}
+  dialogoDespuesDelPrimero: {fileID: 0}
   dialogoManager: {fileID: 712259542}
   idsNecesariosParaHablar: []
+  segundoDialogoRequiereObjeto: 0
+  objetoNecesarioSegundoDialogo: {fileID: 0}
   requiereObjeto: 1
   objetoNecesario: {fileID: 11400000, guid: cbe26b32c0a210643a5c44281574c639, type: 2}
   scriptMovimientoJugador: {fileID: 1608920851}
@@ -2703,7 +2706,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3796,6 +3799,17 @@ MonoBehaviour:
   direccionIda: 1
   miraDerechaPorDefecto: 1
   guiaMovimiento: {fileID: 0}
+--- !u!114 &2947655917461291149 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 184260860824240337, guid: 2c8657540bc6cbb468122c09e089d907, type: 3}
+  m_PrefabInstance: {fileID: 2947655917461291146}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947655917461291147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc74c5fad40708a4f9d6a933609aff81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuiaMovimiento
 --- !u!4 &3206431547110928311
 Transform:
   m_ObjectHideFlags: 0

@@ -17,6 +17,9 @@ public class ZonaBusquedaNina : MonoBehaviour
     public GameObject ninaAActivar;
     public Transform puntoAparicionNina;
 
+    [Header("Sistema de busqueda")]
+    public GameObject BusquedaNina;
+
     [Header("Dialogo al encontrarla")]
     public DialogoManager dialogoManager;
     public DialogoData dialogoAlEncontrarla;
@@ -94,21 +97,41 @@ public class ZonaBusquedaNina : MonoBehaviour
             ninaAActivar.SetActive(true);
         }
 
-        for (int i = 0; i < objetosDesactivarAlEncontrar.Length; i++)
+        if (objetosDesactivarAlEncontrar != null)
         {
-            if (objetosDesactivarAlEncontrar[i] != null)
-                objetosDesactivarAlEncontrar[i].SetActive(false);
+            for (int i = 0; i < objetosDesactivarAlEncontrar.Length; i++)
+            {
+                if (objetosDesactivarAlEncontrar[i] != null)
+                    objetosDesactivarAlEncontrar[i].SetActive(false);
+            }
         }
 
-        for (int i = 0; i < objetosActivarAlEncontrar.Length; i++)
+        if (objetosActivarAlEncontrar != null)
         {
-            if (objetosActivarAlEncontrar[i] != null)
-                objetosActivarAlEncontrar[i].SetActive(true);
+            for (int i = 0; i < objetosActivarAlEncontrar.Length; i++)
+            {
+                if (objetosActivarAlEncontrar[i] != null)
+                    objetosActivarAlEncontrar[i].SetActive(true);
+            }
         }
 
         if (dialogoManager != null && dialogoAlEncontrarla != null)
         {
             dialogoManager.IniciarDialogo(dialogoAlEncontrarla);
+        }
+
+        if (BusquedaNina != null)
+        {
+            BusquedaNina.SetActive(false);
+        }
+        else
+        {
+            GameObject busqueda = GameObject.Find("BusquedaNina");
+
+            if (busqueda != null)
+            {
+                busqueda.SetActive(false);
+            }
         }
 
         gameObject.SetActive(false);
