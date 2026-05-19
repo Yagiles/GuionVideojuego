@@ -118,19 +118,25 @@ public class TriggerCinematicaDialogo : MonoBehaviour
         }
 
         // ACTIVAR Y DESACTIVAR COSAS MIENTRAS LA PANTALLA ESTA NEGRA
-        for (int i = 0; i < objetosDesactivarAlFinal.Length; i++)
+        if (objetosDesactivarAlFinal != null)
         {
-            if (objetosDesactivarAlFinal[i] != null)
+            for (int i = 0; i < objetosDesactivarAlFinal.Length; i++)
             {
-                objetosDesactivarAlFinal[i].SetActive(false);
+                if (objetosDesactivarAlFinal[i] != null)
+                {
+                    objetosDesactivarAlFinal[i].SetActive(false);
+                }
             }
         }
 
-        for (int i = 0; i < objetosActivarAlFinal.Length; i++)
+        if (objetosActivarAlFinal != null)
         {
-            if (objetosActivarAlFinal[i] != null)
+            for (int i = 0; i < objetosActivarAlFinal.Length; i++)
             {
-                objetosActivarAlFinal[i].SetActive(true);
+                if (objetosActivarAlFinal[i] != null)
+                {
+                    objetosActivarAlFinal[i].SetActive(true);
+                }
             }
         }
 
