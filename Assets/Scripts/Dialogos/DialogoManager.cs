@@ -90,6 +90,7 @@ public class DialogoManager : MonoBehaviour
     public EventoSoltarObjetoDialogo[] eventosSoltarObjeto;
 
     private bool esperandoRecogerObjeto = false;
+    private bool movimientoBloqueadoPorObjetoDialogo = false;
 
     [Header("Eventos de activar mision")]
     public EventoActivarMisionDialogo[] eventosActivarMision;
@@ -253,6 +254,10 @@ public class DialogoManager : MonoBehaviour
         dialogoActual = null;
         dialogoActivo = false;
         puedeAvanzar = false;
+        if (movimientoBloqueadoPorObjetoDialogo)
+        {
+            DesbloquearMovimientoJugadorTemporal();
+        }
 
         alTerminarDialogo?.Invoke();
         alTerminarDialogo = null;
@@ -573,6 +578,8 @@ public class DialogoManager : MonoBehaviour
         {
             movimiento.enabled = true;
         }
+
+        movimientoBloqueadoPorObjetoDialogo = false;
     }
 
     void BloquearMovimientoJugadorTemporal()
@@ -583,6 +590,8 @@ public class DialogoManager : MonoBehaviour
         {
             movimiento.enabled = false;
         }
+
+        movimientoBloqueadoPorObjetoDialogo = true;
 
         GameObject jugador = GameObject.FindGameObjectWithTag("Player");
 
