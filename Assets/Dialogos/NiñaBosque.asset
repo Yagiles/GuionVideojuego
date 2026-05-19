@@ -51,11 +51,5 @@ MonoBehaviour:
     texto: 1...
   - nombrePersonaje: "T\xFA"
     texto: 2...
-  - nombrePersonaje: "T\xFA"
-    texto: "(La ni\xF1a se va,quitar una vez se implemente)"
-  - nombrePersonaje: "T\xFA"
-    texto: "\u2026\xA110!"
-  - nombrePersonaje: "T\xFA"
-    texto: "\xA1All\xE1 voy!"
   avanceAutomatico: 0
   duracionLinea: 2

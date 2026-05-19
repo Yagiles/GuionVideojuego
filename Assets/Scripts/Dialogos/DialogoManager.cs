@@ -31,12 +31,15 @@ public class EventoMovimientoGuiaDialogoBosque
     public bool ejecutado;
 }
 
+
 [System.Serializable]
 public class EventoSoltarObjetoDialogo
 {
     public DialogoData dialogo;
     public int despuesDeLinea;
     public GameObject objetoASoltar;
+    public Transform puntoAparicion;
+    public ObjetoData objetoData;
     [HideInInspector] public bool ejecutado;
 }
 
@@ -475,6 +478,23 @@ public class DialogoManager : MonoBehaviour
     {
         esperandoRecogerObjeto = true;
         evento.ejecutado = true;
+        if (evento.objetoData != null && InventarioManager.Instance != null && InventarioManager.Instance.TieneObjeto(evento.objetoData))
+        {
+            esperandoRecogerObjeto = false;
+
+            indiceLinea++;
+
+            if (indiceLinea >= dialogoActual.lineas.Length)
+            {
+                TerminarDialogo();
+            }
+            else
+            {
+                MostrarLinea();
+            }
+
+            yield break;
+        }
 
         panelDialogo.SetActive(false);
 
@@ -485,10 +505,19 @@ public class DialogoManager : MonoBehaviour
 
         DesbloquearMovimientoJugadorTemporal();
 
+        Vector3 posicion = evento.objetoASoltar.transform.position;
+        Quaternion rotacion = evento.objetoASoltar.transform.rotation;
+
+        if (evento.puntoAparicion != null)
+        {
+            posicion = evento.puntoAparicion.position;
+            rotacion = evento.puntoAparicion.rotation;
+        }
+
         GameObject objeto = Instantiate(
             evento.objetoASoltar,
-            evento.objetoASoltar.transform.position,
-            evento.objetoASoltar.transform.rotation
+            posicion,
+            rotacion
         );
 
         ObjetoRecogibleDialogo recogible = objeto.GetComponent<ObjetoRecogibleDialogo>();
@@ -497,8 +526,6 @@ public class DialogoManager : MonoBehaviour
         {
             recogible = objeto.AddComponent<ObjetoRecogibleDialogo>();
         }
-
-        recogible.dialogoManager = this;
 
         while (!recogible.recogido)
         {

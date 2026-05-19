@@ -20,6 +20,9 @@ public class NPCInteractuable : MonoBehaviour
     public MonoBehaviour scriptMovimientoJugador;
     public Rigidbody2D rbJugador;
 
+    [Header("Bloqueo temporal")]
+    public Collider2D colliderBloqueoTemporal;
+
     [Header("Misiones")]
     public bool completaMision = false;
 
@@ -27,6 +30,14 @@ public class NPCInteractuable : MonoBehaviour
     private bool dialogoEnCurso = false;
     private bool esperandoSoltarE = false;
     public bool dialogoTerminado { get; private set; } = false;
+
+    private void Start()
+    {
+        if (colliderBloqueoTemporal != null)
+        {
+            colliderBloqueoTemporal.enabled = false;
+        }
+    }
 
     private void Update()
     {
@@ -56,6 +67,10 @@ public class NPCInteractuable : MonoBehaviour
         }
 
         dialogoEnCurso = true;
+        if (colliderBloqueoTemporal != null)
+        {
+            colliderBloqueoTemporal.enabled = true;
+        }
 
         BloquearMovimientoJugador();
 
@@ -109,6 +124,11 @@ public class NPCInteractuable : MonoBehaviour
     void TerminarDialogoNPC()
     {
         EstadoDialogos.instancia.MarcarComoHablado(idPersonaje);
+
+        if (colliderBloqueoTemporal != null)
+        {
+            colliderBloqueoTemporal.enabled = false;
+        }
 
         DesbloquearMovimientoJugador();
 

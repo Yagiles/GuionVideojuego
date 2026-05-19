@@ -2,13 +2,10 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
-public class ZonaBusquedaObjeto : MonoBehaviour
+public class ZonaBusquedaNina : MonoBehaviour
 {
     [Header("Condicion para poder buscar")]
     public DialogoData dialogoNecesario;
-
-    [Header("Objeto que se busca")]
-    public ObjetoData objetoBuscado;
 
     [Header("UI")]
     public TMP_Text avisoBuscar;
@@ -16,25 +13,27 @@ public class ZonaBusquedaObjeto : MonoBehaviour
     public TMP_Text textoResultado;
 
     [Header("Busqueda")]
-    public bool contieneObjeto;
-    public GameObject prefabObjetoAparecer;
-    public Transform puntoAparicion;
+    public bool contieneNina;
+    public GameObject ninaAActivar;
+    public Transform puntoAparicionNina;
+
+    [Header("Dialogo al encontrarla")]
+    public DialogoManager dialogoManager;
+    public DialogoData dialogoAlEncontrarla;
+
+    [Header("Objetos a activar/desactivar al encontrarla")]
+    public GameObject[] objetosActivarAlEncontrar;
+    public GameObject[] objetosDesactivarAlEncontrar;
 
     [Header("Tiempo mensaje")]
     public float tiempoMostrarResultado = 4f;
 
     private bool jugadorDentro = false;
-    private bool objetoYaAparecido = false;
+    private bool ninaEncontrada = false;
     private Coroutine coroutineOcultarResultado;
 
     void Start()
     {
-        if (YaTieneObjetoBuscado())
-        {
-            gameObject.SetActive(false);
-            return;
-        }
-
         if (panelResultado != null)
             panelResultado.SetActive(false);
 
@@ -47,12 +46,7 @@ public class ZonaBusquedaObjeto : MonoBehaviour
 
     void Update()
     {
-        if (YaTieneObjetoBuscado())
-        {
-            OcultarUI();
-            gameObject.SetActive(false);
-            return;
-        }
+        if (ninaEncontrada) return;
 
         if (jugadorDentro && PuedeBuscar() && Input.GetKeyDown(KeyCode.B))
         {
@@ -69,47 +63,55 @@ public class ZonaBusquedaObjeto : MonoBehaviour
                EstadoDialogos.instancia.HaHabladoCon(dialogoNecesario.name);
     }
 
-    bool YaTieneObjetoBuscado()
-    {
-        return objetoBuscado != null &&
-               InventarioManager.Instance != null &&
-               InventarioManager.Instance.TieneObjeto(objetoBuscado);
-    }
-
     void Buscar()
     {
-        if (YaTieneObjetoBuscado())
-        {
-            OcultarUI();
-            gameObject.SetActive(false);
-            return;
-        }
-
         if (avisoBuscar != null)
             avisoBuscar.gameObject.SetActive(false);
 
-        if (contieneObjeto)
+        if (contieneNina)
         {
-            if (!objetoYaAparecido && prefabObjetoAparecer != null)
-            {
-                Instantiate(
-                    prefabObjetoAparecer,
-                    puntoAparicion != null
-                        ? puntoAparicion.position
-                        : transform.position,
-                    Quaternion.identity
-                );
-
-                objetoYaAparecido = true;
-            }
-
-            if (panelResultado != null)
-                panelResultado.SetActive(false);
+            EncontrarNina();
         }
         else
         {
             MostrarResultado();
         }
+    }
+
+    void EncontrarNina()
+    {
+        ninaEncontrada = true;
+
+        OcultarUI();
+
+        if (ninaAActivar != null)
+        {
+            if (puntoAparicionNina != null)
+            {
+                ninaAActivar.transform.position = puntoAparicionNina.position;
+            }
+
+            ninaAActivar.SetActive(true);
+        }
+
+        for (int i = 0; i < objetosDesactivarAlEncontrar.Length; i++)
+        {
+            if (objetosDesactivarAlEncontrar[i] != null)
+                objetosDesactivarAlEncontrar[i].SetActive(false);
+        }
+
+        for (int i = 0; i < objetosActivarAlEncontrar.Length; i++)
+        {
+            if (objetosActivarAlEncontrar[i] != null)
+                objetosActivarAlEncontrar[i].SetActive(true);
+        }
+
+        if (dialogoManager != null && dialogoAlEncontrarla != null)
+        {
+            dialogoManager.IniciarDialogo(dialogoAlEncontrarla);
+        }
+
+        gameObject.SetActive(false);
     }
 
     void MostrarResultado()
@@ -153,12 +155,7 @@ public class ZonaBusquedaObjeto : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (YaTieneObjetoBuscado())
-        {
-            OcultarUI();
-            gameObject.SetActive(false);
-            return;
-        }
+        if (ninaEncontrada) return;
 
         if (collision.CompareTag("Player") && PuedeBuscar())
         {
