@@ -1462,16 +1462,16 @@ PolygonCollider2D:
       - {x: 5.6636715, y: -9.935156}
       - {x: 5.679492, y: -9.903515}
       - {x: 5.695312, y: -9.523828}
-      - {x: 5.6636715, y: -9.4605465}
-      - {x: 5.236523, y: -9.476366}
-      - {x: 4.777734, y: -9.4605465}
-      - {x: 4.4455075, y: -9.397265}
-      - {x: 4.144922, y: -9.397265}
-      - {x: 3.4646482, y: -9.4289055}
+      - {x: 5.655385, y: -9.520338}
+      - {x: 5.319383, y: -9.556087}
+      - {x: 4.810879, y: -9.560199}
+      - {x: 4.437221, y: -9.506882}
+      - {x: 4.1532083, y: -9.506881}
+      - {x: 3.4729345, y: -9.518592}
       - {x: 2.2781248, y: -9.587109}
       - {x: 2.0566404, y: -9.587109}
-      - {x: 1.629492, y: -9.634569}
-      - {x: 0.77519524, y: -9.65039}
+      - {x: 1.6599925, y: -9.69326}
+      - {x: 0.77519524, y: -9.731089}
       - {x: 0.5695312, y: -9.903515}
       - {x: 0.5695312, y: -10.014257}
       - {x: 0.5853515, y: -10.0458975}
@@ -1645,13 +1645,13 @@ PolygonCollider2D:
       - {x: 4.113281, y: -6.6287103}
       - {x: 4.113281, y: -7.008398}
       - {x: 4.1765623, y: -7.1349607}
-      - {x: 4.255664, y: -7.2298822}
-      - {x: 4.413867, y: -7.308984}
-      - {x: 4.635351, y: -7.3248043}
-      - {x: 5.5054684, y: -7.3248043}
-      - {x: 5.679492, y: -7.3406243}
-      - {x: 6.138281, y: -7.3722653}
-      - {x: 6.312304, y: -7.3722653}
+      - {x: 4.255664, y: -7.1601253}
+      - {x: 4.413867, y: -7.229263}
+      - {x: 4.6602087, y: -7.2251525}
+      - {x: 5.480611, y: -7.255049}
+      - {x: 5.629777, y: -7.250938}
+      - {x: 6.1134233, y: -7.242718}
+      - {x: 6.312304, y: -7.2626495}
       - {x: 6.7236323, y: -7.3248043}
       - {x: 7.530468, y: -7.2773433}
       - {x: 8.226562, y: -7.261523}
@@ -2842,7 +2842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2082609675427171041, guid: 42942c144d7a64e46ac20df43a4e36fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.78
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 2082609675427171041, guid: 42942c144d7a64e46ac20df43a4e36fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3251,11 +3251,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1748468258271906735, guid: 5e1cc776767ca6543b0601218e9c508c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16
+      value: -16.44
       objectReference: {fileID: 0}
     - target: {fileID: 1748468258271906735, guid: 5e1cc776767ca6543b0601218e9c508c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.6
+      value: -28.96
       objectReference: {fileID: 0}
     - target: {fileID: 1748468258271906735, guid: 5e1cc776767ca6543b0601218e9c508c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3804,6 +3804,10 @@ PrefabInstance:
     - target: {fileID: 6827299104529022383, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905393148324076075, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6905393148324076075, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: m_fontColor.b
