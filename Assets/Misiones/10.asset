@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Confronta al Rey
-  descripcion: Regresa al trono y confronta al rey
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  descripcion: Regresa al castillo y confronta al rey
+  tipoCompletado: 0
+  activarSiguienteAlCompletar: 0
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

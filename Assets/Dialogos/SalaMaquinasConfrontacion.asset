@@ -53,7 +53,7 @@ MonoBehaviour:
     texto: "\xA1A-aqu\xED todo el mundo es libre de hacer lo que quiera!"
   - nombrePersonaje: Rey
     texto: "T\xFA no buscas libertad. Buscas control."
-  - nombrePersonaje: Rey
+  - nombrePersonaje: "T\xFA"
     texto: "Se acab\xF3"
   - nombrePersonaje: Rey
     texto: "\xA1No!\xA1No te atrever\xEDas!"

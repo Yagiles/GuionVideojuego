@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: "Sigue al gu\xEDa"
-  descripcion: "Sigue al gu\xEDa hasta el pantano\n"
-  tipoCompletado: 3
+  descripcion: '
+
+'
+  tipoCompletado: 1
   objetosRequeridos: []
   nombresNPCsEnOrden: []

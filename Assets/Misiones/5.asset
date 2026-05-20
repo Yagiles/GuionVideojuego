@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4c20a4e17ae4f4dbc41cbe95fa7cb2, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
-  tituloMision: Ve al mercado
-  descripcion: "Dir\xEDgete al mercado"
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tituloMision: Busca el camino
+  descripcion: Busca el camino hacia el manantial
+  tipoCompletado: 1
+  activarSiguienteAlCompletar: 0
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

@@ -15,7 +15,6 @@ public class CambioEscenaSalaMaquinas : MonoBehaviour
 
     [Header("Fundido")]
     public CanvasGroup pantallaNegra;
-    public float duracionFundido = 1f;
 
     private bool cambiando = false;
 
@@ -34,19 +33,13 @@ public class CambioEscenaSalaMaquinas : MonoBehaviour
         DatosCambioEscena.spawnDestino = nombreSpawnDestino;
         DatosCambioEscena.modoVuelta = modoVueltaAlEntrar;
 
-        float tiempo = 0f;
-
-        while (tiempo < duracionFundido)
+        if (pantallaNegra != null)
         {
-            tiempo += Time.deltaTime;
-
-            if (pantallaNegra != null)
-            {
-                pantallaNegra.alpha = tiempo / duracionFundido;
-            }
-
-            yield return null;
+            pantallaNegra.gameObject.SetActive(true);
+            pantallaNegra.alpha = 1f;
         }
+
+        yield return null;
 
         SceneManager.LoadScene(nombreSiguienteEscena);
     }
