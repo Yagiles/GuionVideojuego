@@ -2,10 +2,11 @@
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections; // ← IMPORTANTE: Añade esta línea para poder usar Corrutinas
 
 public class InventarioUI : MonoBehaviour
 {
-    public static InventarioUI Instance; // ← añade esta línea
+    public static InventarioUI Instance;
 
     [Header("Slots (arrastrar los 4 Images)")]
     public Image[] iconosSlots = new Image[4];
@@ -17,23 +18,38 @@ public class InventarioUI : MonoBehaviour
     public TMP_Text textoDescripcionPopup;
 
     private KeyCode[] teclas = { KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4 };
-    private GameObject canvasInventario;
+
+    [Header("Asigna el Canvas directamente aquí en el Inspector")]
+    [SerializeField] private GameObject canvasInventario;
 
     void Awake()
     {
         if (Instance != null)
         {
+            if (canvasInventario != null)
+            {
+                Destroy(canvasInventario);
+            }
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        canvasInventario = GameObject.Find("CanvasInventario");
         if (canvasInventario != null)
         {
             DontDestroyOnLoad(canvasInventario);
             canvasInventario.SetActive(false);
+        }
+        else
+        {
+            canvasInventario = GameObject.Find("CanvasInventario");
+            if (canvasInventario != null)
+            {
+                DontDestroyOnLoad(canvasInventario);
+                canvasInventario.SetActive(false);
+            }
         }
     }
 
@@ -48,48 +64,62 @@ public class InventarioUI : MonoBehaviour
                 ManejarTecla(i);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && panelPopup.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && panelPopup != null && panelPopup.activeSelf)
             panelPopup.SetActive(false);
     }
 
     void ManejarTecla(int slot)
     {
+        if (InventarioManager.Instance == null) return;
+
         ObjetoData objeto = InventarioManager.Instance.GetObjeto(slot);
 
         if (objeto == null)
         {
-            panelPopup.SetActive(false);
+            if (panelPopup != null) panelPopup.SetActive(false);
             return;
         }
 
-        if (panelPopup.activeSelf && textoNombrePopup.text == objeto.nombreObjeto)
+        if (panelPopup != null && panelPopup.activeSelf && textoNombrePopup != null && textoNombrePopup.text == objeto.nombreObjeto)
         {
             panelPopup.SetActive(false);
             return;
         }
 
-        textoNombrePopup.text = objeto.nombreObjeto;
-        textoDescripcionPopup.text = objeto.descripcion;
-        panelPopup.SetActive(true);
+        if (textoNombrePopup != null) textoNombrePopup.text = objeto.nombreObjeto;
+        if (textoDescripcionPopup != null) textoDescripcionPopup.text = objeto.descripcion;
+        if (panelPopup != null) panelPopup.SetActive(true);
     }
 
     public void RefrescarUI()
     {
+        if (InventarioManager.Instance == null)
+        {
+            Debug.LogWarning("InventarioManager no encontrado al refrescar UI");
+            return;
+        }
+
         if (canvasInventario != null && !canvasInventario.activeSelf)
             canvasInventario.SetActive(true);
 
         for (int i = 0; i < iconosSlots.Length; i++)
         {
+            if (iconosSlots[i] == null)
+            {
+                Debug.LogError($"El icono del slot {i} es nulo en RefrescarUI.");
+                continue;
+            }
+
             ObjetoData objeto = InventarioManager.Instance.GetObjeto(i);
             if (objeto != null)
             {
                 iconosSlots[i].sprite = objeto.icono;
-                iconosSlots[i].color = Color.white; // Muestra el sprite con colores reales
+                iconosSlots[i].color = Color.white;
             }
             else
             {
                 iconosSlots[i].sprite = spriteVacio;
-                iconosSlots[i].color = new Color(0.3f, 0.15f, 0.05f, 1f); // Marrón oscuro para vacío
+                iconosSlots[i].color = new Color(0.3f, 0.15f, 0.05f, 1f);
             }
         }
     }
@@ -106,6 +136,20 @@ public class InventarioUI : MonoBehaviour
 
     void OnScenaCargada(Scene escena, LoadSceneMode mode)
     {
+        // En lugar de llamar directo a RefrescarUI, iniciamos la espera controlada
+        StartCoroutine(EsperarYRefrescarSincronizado());
+    }
+
+    // Esta corrutina obliga a Unity a terminar de procesar toda la carga antes de pintar los sprites
+    private IEnumerator EsperarYRefrescarSincronizado()
+    {
+        // Esperamos a que termine el frame actual de carga
+        yield return new WaitForEndOfFrame();
+
+        // Adicionalmente, si tu InventarioManager tarda un pelín en cargar de un archivo o PlayerPrefs, 
+        // puedes descomentar la siguiente línea para esperar un cuadro extra:
+        // yield return null;
+
         RefrescarUI();
     }
 }

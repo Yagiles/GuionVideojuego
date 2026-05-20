@@ -577,6 +577,7 @@ GameObject:
   - component: {fileID: 3699566417746629803}
   - component: {fileID: 1612388624260387049}
   - component: {fileID: 4265878113715146635}
+  - component: {fileID: 3215674981005422980}
   m_Layer: 5
   m_Name: CanvasInventario
   m_TagString: Untagged
@@ -640,7 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -668,6 +669,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3215674981005422980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871085975246829105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938acbc81d6f8a34992930911840d68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Persistente
 --- !u!1 &6587482418488889702
 GameObject:
   m_ObjectHideFlags: 0
