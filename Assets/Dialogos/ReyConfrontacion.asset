@@ -13,9 +13,44 @@ MonoBehaviour:
   m_Name: ReyConfrontacion
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
+  - nombrePersonaje: 'Rey '
+    texto: Oh. Has regresado.
+  - nombrePersonaje: Rey
+    texto: "\xBFQu\xE9 tal te ha ido el viaje?"
   - nombrePersonaje: "T\xFA"
-    texto: Bla bla bla
+    texto: Bastante interesante, para serte sincero.
+  - nombrePersonaje: Rey
+    texto: "\xBFInteresante? \xBFQu\xE9 te ha parecido?"
+  - nombrePersonaje: Rey
+    texto: "Es un mundo hermoso, \xBFno es a-"
   - nombrePersonaje: "T\xFA"
-    texto: Bla bla bla
+    texto: "Un momento. No tan r\xE1pido."
+  - nombrePersonaje: "T\xFA"
+    texto: Quiero que me respondas a algo, por favor.
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFTe suena de algo el zumo m\xE1gico?"
+  - nombrePersonaje: Rey
+    texto: ...
+  - nombrePersonaje: Rey
+    texto: "\xBFTe refieres a la bebida popular de aqu\xED?"
+  - nombrePersonaje: Rey
+    texto: "\xBFLa has probado?"
+  - nombrePersonaje: "T\xFA"
+    texto: No
+  - nombrePersonaje: "T\xFA"
+    texto: "Pero me he enterado que t\xFA las distribuyes."
+  - nombrePersonaje: Rey
+    texto: "O-oh. S\xED\u2026"
+  - nombrePersonaje: Rey
+    texto: "El zumo m\xE1gico junto con los diferentes platos forman parte de la
+      gastronom\xEDa tan m\xE1gica de este lugar."
+  - nombrePersonaje: "T\xFA"
+    texto: "Hm\u2026 Entonces, \xBFpor qu\xE9 no me dices para qu\xE9 es esa palanca?"
+  - nombrePersonaje: Rey
+    texto: "Eh\u2026 Ya te lo dije. Es para mi tesorer\xEDa."
+  - nombrePersonaje: Rey
+    texto: "Dime\u2026 \xBFHas encontrado el manantial?"
+  - nombrePersonaje: "T\xFA"
+    texto: "Todav\xEDa no. Pero creo que s\xE9 un \xFAltimo sitio para buscar."
   avanceAutomatico: 0
   duracionLinea: 2

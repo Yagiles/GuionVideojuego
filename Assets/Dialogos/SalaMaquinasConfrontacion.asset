@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: SalaMaquinasConfrontacion
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: "T\xFA"
+    texto: "Esta m\xE1quina parece ser el centro de la producci\xF3n"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFEh? Tiene una cerradura."
+  - nombrePersonaje: "T\xFA"
+    texto: Un momento...
+  - nombrePersonaje: "T\xFA"
+    texto: Puede ser...
+  - nombrePersonaje: "T\xFA"
+    texto: "La llave del drag\xF3n parece pertenecer a la m\xE1quina."
+  - nombrePersonaje: Rey
+    texto: "\xA1Alto ah\xED! \xA1No te muevas!"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFQu\xE9 significa esto?"
+  - nombrePersonaje: Rey
+    texto: "\xA1Silencio! \xA1No debiste tirar de la palanca!"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFPor qu\xE9 est\xE1s haciendo esto?"
+  - nombrePersonaje: Rey
+    texto: No lo entiendes.
+  - nombrePersonaje: Rey
+    texto: La gente se estaba marchando.
+  - nombrePersonaje: Rey
+    texto: "Este lugar es m\xE1gico, es un para\xEDso."
+  - nombrePersonaje: Rey
+    texto: "\xBFPor qu\xE9 alguien deber\xEDa irse?"
+  - nombrePersonaje: Rey
+    texto: "Trat\xE9 de acerles entrar en raz\xF3n pero nadie escuchaba."
+  - nombrePersonaje: Rey
+    texto: "Tuve que darles un peque\xF1o empuj\xF3n."
+  - nombrePersonaje: Rey
+    texto: "Gracias a m\xED, el rey, \xA1todos est\xE1n felices!"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xA1No est\xE1n realmente felices! Viven en una mentira."
+  - nombrePersonaje: "T\xFA"
+    texto: "\xA1No tienen libertad!"
+  - nombrePersonaje: Rey
+    texto: "\xA1A-aqu\xED todo el mundo es libre de hacer lo que quiera!"
+  - nombrePersonaje: Rey
+    texto: "T\xFA no buscas libertad. Buscas control."
+  - nombrePersonaje: Rey
+    texto: "Se acab\xF3"
+  - nombrePersonaje: Rey
+    texto: "\xA1No!\xA1No te atrever\xEDas!"
+  - nombrePersonaje: "T\xFA"
+    texto: "Yo no estar\xEDa tan seguro."
+  - nombrePersonaje: "T\xFA"
+    texto: "(<i>usa la llave para desactivar la m\xE1quina<i>)"
+  - nombrePersonaje: Rey
+    texto: "\xA1Nooooooo! \xA1Mi imperio!"
+  - nombrePersonaje: "T\xFA"
+    texto: "Ahora todos podr\xE1n vivir como ellos quieran."
+  avanceAutomatico: 0
+  duracionLinea: 2

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: "1Sala m\xE1quinas"
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: "T\xFA"
+    texto: ...
+  - nombrePersonaje: "T\xFA"
+    texto: "Ah\u2026 mi cabeza\u2026"
+  - nombrePersonaje: "T\xFA"
+    texto: "\xBFEh? \xBFQu\xE9 es este lugar?"
+  - nombrePersonaje: "T\xFA"
+    texto: "Esto es\u2026 \xBFuna f\xE1brica?"
+  - nombrePersonaje: "T\xFA"
+    texto: "Un panel\u2026"
+  - nombrePersonaje: PANEL
+    texto: "\u201CPROYECTO EDEN\u201D"
+  - nombrePersonaje: PANEL
+    texto: "\u201CEfectos al consumir elixir: Felicidad,Despreocupaci\xF3n,Satisfacci\xF3n\u2026\u201D"
+  - nombrePersonaje: PANEL
+    texto: "\u201CProductos vinculados con el elixir: Zumo, Comida, Salsas\u2026\u201D"
+  - nombrePersonaje: PANEL
+    texto: "\u201CCantidad de elixir extra\xEDble restante: 43%\""
+  - nombrePersonaje: "T\xFA"
+    texto: ...
+  - nombrePersonaje: "T\xFA"
+    texto: "Entonces el agua del manantial\u2026"
+  - nombrePersonaje: "T\xFA"
+    texto: "Espera, \xBFno s\xF3lo es el zumo?"
+  - nombrePersonaje: "T\xFA"
+    texto: "Adem\xE1s, parece que lleva bastante tiempo en marcha."
+  - nombrePersonaje: "T\xFA"
+    texto: Suerte que no he probado nada.
+  avanceAutomatico: 0
+  duracionLinea: 2
