@@ -13,9 +13,12 @@ public class MoverRey : MonoBehaviour
     private NPCInteractuable npcInteractuable;
     private bool movimientoIniciado = false;
 
+    private Animator animator;
+
     private void Awake()
     {
         npcInteractuable = GetComponent<NPCInteractuable>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -31,6 +34,8 @@ public class MoverRey : MonoBehaviour
 
     IEnumerator Moverse()
     {
+        animator.SetBool("moviendose", true);
+
         float tiempoTranscurrido = 0f;
 
         while (tiempoTranscurrido < tiempoMoverse)
@@ -45,5 +50,6 @@ public class MoverRey : MonoBehaviour
             tiempoTranscurrido += Time.deltaTime;
             yield return null;
         }
+        animator.SetBool("moviendose", false);
     }
 }

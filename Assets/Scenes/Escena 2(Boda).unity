@@ -1151,6 +1151,28 @@ MonoBehaviour:
   velocidad: 7
   tiempoMoverse: 120
   juglar: {fileID: 2032834507}
+--- !u!95 &965262428
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290061884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90d9faad80a92ec4e8f3e50e6f6ff363, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &991704437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,6 +3654,10 @@ PrefabInstance:
       value: Rey
       objectReference: {fileID: 0}
     - target: {fileID: 2633104513649404324, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2746196411436356728, guid: 8451c4e6f3e73a7438b76372182d6bc3, type: 3}
+    - target: {fileID: 2633104513649404324, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -3641,7 +3667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7972300827275957625, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.05
+      value: -7.23
       objectReference: {fileID: 0}
     - target: {fileID: 7972300827275957625, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3688,6 +3714,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 604910796445666674, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 965262427}
+    - targetCorrespondingSourceObject: {fileID: 604910796445666674, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 965262428}
   m_SourcePrefab: {fileID: 100100000, guid: c5862650689cb3a4193c7eddb41c18b2, type: 3}
 --- !u!114 &4402946278417154117
 MonoBehaviour:
