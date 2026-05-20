@@ -2361,7 +2361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747986064125520147, guid: f8d044b1029745c4dbfb5878753517c2, type: 3}
       propertyPath: misiones.Array.size
-      value: 11
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4747986064125520147, guid: f8d044b1029745c4dbfb5878753517c2, type: 3}
       propertyPath: 'misiones.Array.data[5]'
