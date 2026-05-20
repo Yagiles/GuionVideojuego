@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: b927fbca4acb64949a753fbd691ca74a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -795329356473813561
+    second: rey spritesheet wlk_0
+  - first:
+      213: 2126275230004987758
+    second: rey spritesheet wlk_1
+  - first:
+      213: 6146868475119088243
+    second: rey spritesheet wlk_2
+  - first:
+      213: -4155504768595553811
+    second: rey spritesheet wlk_3
+  - first:
+      213: 8886576887439928571
+    second: rey spritesheet wlk_4
+  - first:
+      213: 7682883481927646285
+    second: rey spritesheet wlk_5
+  - first:
+      213: 6480311181666051226
+    second: rey spritesheet wlk_6
+  - first:
+      213: -8462298928414680223
+    second: rey spritesheet wlk_7
+  - first:
+      213: -6137717672590119800
+    second: rey spritesheet wlk_8
+  - first:
+      213: -8328741163685185816
+    second: rey spritesheet wlk_9
+  - first:
+      213: 8604057783046193019
+    second: rey spritesheet wlk_10
+  - first:
+      213: -5468685939494806547
+    second: rey spritesheet wlk_11
+  - first:
+      213: 6041723282480903479
+    second: rey spritesheet wlk_12
+  - first:
+      213: -2121449653563031719
+    second: rey spritesheet wlk_13
+  - first:
+      213: -747359930157785549
+    second: rey spritesheet wlk_14
+  - first:
+      213: 2905209718191362211
+    second: rey spritesheet wlk_15
+  - first:
+      213: -1144083299230574674
+    second: rey spritesheet wlk_16
+  - first:
+      213: 7004417601973506991
+    second: rey spritesheet wlk_17
+  - first:
+      213: -582413675797295408
+    second: rey spritesheet wlk_18
+  - first:
+      213: -4406895162652663270
+    second: rey spritesheet wlk_19
+  - first:
+      213: -8209318452609169376
+    second: rey spritesheet wlk_20
+  - first:
+      213: 4161424314027811615
+    second: rey spritesheet wlk_21
+  - first:
+      213: -5806600068672494889
+    second: rey spritesheet wlk_22
+  - first:
+      213: -2998597695669095623
+    second: rey spritesheet wlk_23
+  - first:
+      213: -7085113975987841758
+    second: rey spritesheet wlk_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rey spritesheet wlk_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 581
+        width: 312
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c530f30a2c66f4f0800000000000000
+      internalID: -795329356473813561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 582
+        width: 312
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67c8236e0c028d10800000000000000
+      internalID: 2126275230004987758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 582
+        width: 310
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37235848f401e4550800000000000000
+      internalID: 6146868475119088243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_3
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 582
+        width: 307
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de19b650e6ea456c0800000000000000
+      internalID: -4155504768595553811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_4
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 583
+        width: 301
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcad059896735b70800000000000000
+      internalID: 8886576887439928571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_5
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 583
+        width: 296
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c730732d51f9a60800000000000000
+      internalID: 7682883481927646285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_6
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 583
+        width: 289
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9462318fa0bee950800000000000000
+      internalID: 6480311181666051226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_7
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 583
+        width: 280
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b9ca4b5ffdf8a80800000000000000
+      internalID: -8462298928414680223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_8
+      rect:
+        serializedVersion: 2
+        x: 3702
+        y: 583
+        width: 271
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ce0a9bb4272daa0800000000000000
+      internalID: -6137717672590119800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_9
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 582
+        width: 263
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6fe580a0e5a6c80800000000000000
+      internalID: -8328741163685185816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_10
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 581
+        width: 259
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f3769a7f0c76770800000000000000
+      internalID: 8604057783046193019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_11
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 581
+        width: 256
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1d34cc135b14b0800000000000000
+      internalID: -5468685939494806547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_12
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 581
+        width: 254
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7353b73a05388d350800000000000000
+      internalID: 6041723282480903479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 67
+        width: 254
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fff7ea7c81f82e0800000000000000
+      internalID: -2121449653563031719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_14
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 67
+        width: 253
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e959b6a18d0a5f0800000000000000
+      internalID: -747359930157785549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_15
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 67
+        width: 252
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01fc2a8d0615820800000000000000
+      internalID: 2905209718191362211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_16
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 67
+        width: 253
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea797eb0d466f10f0800000000000000
+      internalID: -1144083299230574674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_17
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 67
+        width: 260
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3df10b2b0b43160800000000000000
+      internalID: 7004417601973506991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_18
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 68
+        width: 269
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dec5cdf8d9dae7f0800000000000000
+      internalID: -582413675797295408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_19
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 68
+        width: 281
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1263b3c23097d2c0800000000000000
+      internalID: -4406895162652663270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_20
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 68
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028cb28bc54a21e80800000000000000
+      internalID: -8209318452609169376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_21
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 68
+        width: 298
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f132d4d8d5950c930800000000000000
+      internalID: 4161424314027811615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_22
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 68
+        width: 304
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d264029000da6fa0800000000000000
+      internalID: -5806600068672494889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_23
+      rect:
+        serializedVersion: 2
+        x: 4556
+        y: 68
+        width: 308
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933b6557847d266d0800000000000000
+      internalID: -2998597695669095623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rey spritesheet wlk_24
+      rect:
+        serializedVersion: 2
+        x: 4993
+        y: 68
+        width: 311
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d61c906e9cad90800000000000000
+      internalID: -7085113975987841758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rey spritesheet wlk_0: -795329356473813561
+      rey spritesheet wlk_1: 2126275230004987758
+      rey spritesheet wlk_10: 8604057783046193019
+      rey spritesheet wlk_11: -5468685939494806547
+      rey spritesheet wlk_12: 6041723282480903479
+      rey spritesheet wlk_13: -2121449653563031719
+      rey spritesheet wlk_14: -747359930157785549
+      rey spritesheet wlk_15: 2905209718191362211
+      rey spritesheet wlk_16: -1144083299230574674
+      rey spritesheet wlk_17: 7004417601973506991
+      rey spritesheet wlk_18: -582413675797295408
+      rey spritesheet wlk_19: -4406895162652663270
+      rey spritesheet wlk_2: 6146868475119088243
+      rey spritesheet wlk_20: -8209318452609169376
+      rey spritesheet wlk_21: 4161424314027811615
+      rey spritesheet wlk_22: -5806600068672494889
+      rey spritesheet wlk_23: -2998597695669095623
+      rey spritesheet wlk_24: -7085113975987841758
+      rey spritesheet wlk_3: -4155504768595553811
+      rey spritesheet wlk_4: 8886576887439928571
+      rey spritesheet wlk_5: 7682883481927646285
+      rey spritesheet wlk_6: 6480311181666051226
+      rey spritesheet wlk_7: -8462298928414680223
+      rey spritesheet wlk_8: -6137717672590119800
+      rey spritesheet wlk_9: -8328741163685185816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

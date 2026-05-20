@@ -58,8 +58,8 @@ MonoBehaviour:
   - nombrePersonaje: "T\xFA"
     texto: "Est\xE1 bien. Trato hecho."
   - nombrePersonaje: Bell
-    texto: "Si pasas por una cueva, ac\xE9rcate a la tienda de pociones."
+    texto: "Si pasas por una cueva, habla con drag\xF3n. "
   - nombrePersonaje: Bell
-    texto: "Puede que encuentres algo que te ayude con tu misi\xF3n. "
+    texto: "Puede que te d\xE9 algo que te ayude con tu misi\xF3n. "
   avanceAutomatico: 0
   duracionLinea: 2

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Ve al mercado
-  descripcion: "Dir\xEDgete al mercado "
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  descripcion: Dirigete al mercado
+  tipoCompletado: 1
+  activarSiguienteAlCompletar: 0
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

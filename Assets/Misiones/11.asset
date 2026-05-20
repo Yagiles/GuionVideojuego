@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Derrota al rey
   descripcion: "\xA1Derr\xF3talo antes de que sea tarde!"
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tipoCompletado: 0
+  activarSiguienteAlCompletar: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

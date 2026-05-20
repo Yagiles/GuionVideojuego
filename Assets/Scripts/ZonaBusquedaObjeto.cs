@@ -7,6 +7,9 @@ public class ZonaBusquedaObjeto : MonoBehaviour
     [Header("Condicion para poder buscar")]
     public DialogoData dialogoNecesario;
 
+    [Header("Estado persistente")]
+    public string idBusquedaCompletada = "busqueda_objeto_completada";
+
     [Header("Objeto que se busca")]
     public ObjetoData objetoBuscado;
 
@@ -20,6 +23,9 @@ public class ZonaBusquedaObjeto : MonoBehaviour
     public GameObject prefabObjetoAparecer;
     public Transform puntoAparicion;
 
+    [Header("Sistema de busqueda")]
+    public GameObject sistemaBusquedaObjeto;
+
     [Header("Tiempo mensaje")]
     public float tiempoMostrarResultado = 4f;
 
@@ -29,27 +35,23 @@ public class ZonaBusquedaObjeto : MonoBehaviour
 
     void Start()
     {
-        if (YaTieneObjetoBuscado())
+        if (BusquedaYaCompletada() || YaTieneObjetoBuscado())
         {
+            OcultarUI();
+            DesactivarSistemaBusqueda();
             gameObject.SetActive(false);
             return;
         }
 
-        if (panelResultado != null)
-            panelResultado.SetActive(false);
-
-        if (avisoBuscar != null)
-            avisoBuscar.gameObject.SetActive(false);
-
-        if (textoResultado != null)
-            textoResultado.gameObject.SetActive(false);
+        OcultarUI();
     }
 
     void Update()
     {
-        if (YaTieneObjetoBuscado())
+        if (BusquedaYaCompletada() || YaTieneObjetoBuscado())
         {
             OcultarUI();
+            DesactivarSistemaBusqueda();
             gameObject.SetActive(false);
             return;
         }
@@ -76,11 +78,28 @@ public class ZonaBusquedaObjeto : MonoBehaviour
                InventarioManager.Instance.TieneObjeto(objetoBuscado);
     }
 
+    bool BusquedaYaCompletada()
+    {
+        return EstadoDialogos.instancia != null &&
+               !string.IsNullOrEmpty(idBusquedaCompletada) &&
+               EstadoDialogos.instancia.HaHabladoCon(idBusquedaCompletada);
+    }
+
+    void MarcarBusquedaCompletada()
+    {
+        if (EstadoDialogos.instancia != null &&
+            !string.IsNullOrEmpty(idBusquedaCompletada))
+        {
+            EstadoDialogos.instancia.MarcarComoHablado(idBusquedaCompletada);
+        }
+    }
+
     void Buscar()
     {
-        if (YaTieneObjetoBuscado())
+        if (BusquedaYaCompletada() || YaTieneObjetoBuscado())
         {
             OcultarUI();
+            DesactivarSistemaBusqueda();
             gameObject.SetActive(false);
             return;
         }
@@ -103,12 +122,31 @@ public class ZonaBusquedaObjeto : MonoBehaviour
                 objetoYaAparecido = true;
             }
 
-            if (panelResultado != null)
-                panelResultado.SetActive(false);
+            MarcarBusquedaCompletada();
+            OcultarUI();
+            DesactivarSistemaBusqueda();
+            gameObject.SetActive(false);
         }
         else
         {
             MostrarResultado();
+        }
+    }
+
+    void DesactivarSistemaBusqueda()
+    {
+        if (sistemaBusquedaObjeto != null)
+        {
+            sistemaBusquedaObjeto.SetActive(false);
+        }
+        else
+        {
+            GameObject busqueda = GameObject.Find("BusquedaObjeto");
+
+            if (busqueda != null)
+            {
+                busqueda.SetActive(false);
+            }
         }
     }
 
@@ -153,9 +191,10 @@ public class ZonaBusquedaObjeto : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (YaTieneObjetoBuscado())
+        if (BusquedaYaCompletada() || YaTieneObjetoBuscado())
         {
             OcultarUI();
+            DesactivarSistemaBusqueda();
             gameObject.SetActive(false);
             return;
         }

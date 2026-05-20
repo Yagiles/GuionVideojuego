@@ -12,6 +12,10 @@ public class PalancaCaidaEscena : MonoBehaviour
     public float gradosGiro = -60f;
     public float duracionGiro = 0.4f;
 
+    [Header("Sonido")]
+    public AudioSource audioSource;
+    public AudioClip sonidoPalanca;
+
     [Header("Suelo que desaparece")]
     public Collider2D colliderSueloADesactivar;
 
@@ -53,6 +57,11 @@ public class PalancaCaidaEscena : MonoBehaviour
     private IEnumerator ActivarPalanca()
     {
         usada = true;
+
+        if (audioSource != null && sonidoPalanca != null)
+        {
+            audioSource.PlayOneShot(sonidoPalanca);
+        }
 
         yield return StartCoroutine(GirarPalanca());
 

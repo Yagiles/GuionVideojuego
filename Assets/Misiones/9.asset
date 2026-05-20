@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: 9
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
   tituloMision: Busca los objetos
-  descripcion: Encuentra los objetos misteriosos.
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  descripcion: "Encuentra los objetos y entr\xE9galos"
+  tipoCompletado: 4
+  activarSiguienteAlCompletar: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden:
+  - Mapache
+  - NPCPociones

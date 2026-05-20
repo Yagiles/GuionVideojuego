@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class InventarioManager : MonoBehaviour
 {
     public static InventarioManager Instance;
-    private ObjetoData[] objetos = new ObjetoData[4]; // 4 slots fijos
+    [SerializeField] private ObjetoData[] objetos = new ObjetoData[4]; // 4 slots fijos
 
     void Awake()
     {

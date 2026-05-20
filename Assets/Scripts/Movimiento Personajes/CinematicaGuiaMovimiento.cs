@@ -13,7 +13,7 @@ public class CinematicaGuiaMovimiento : MonoBehaviour
     public float distancia = 2f;
     public float velocidad = 1.5f;
 
-    public IEnumerator MoverDerecha()
+    public virtual IEnumerator MoverDerecha()
     {
         GirarPersonaje();
 

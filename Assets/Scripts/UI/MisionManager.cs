@@ -11,14 +11,11 @@ public class MisionManager : MonoBehaviour
 
     private int indiceMisionActual = 0;
     private bool primeraEscena = true;
-
     private bool misionActiva = false;
 
-    // Para misiones tipo SecuenciaDialogos
     private int indiceNPCActual = 0;
-
-    // Para misiones tipo AlRecogerObjeto con varios objetos
     private List<ObjetoData> objetosRecogidosEnMision = new List<ObjetoData>();
+    private List<string> dialogosCompletadosSinOrden = new List<string>();
 
     void Awake()
     {
@@ -69,9 +66,11 @@ public class MisionManager : MonoBehaviour
         misionActiva = true;
         indiceNPCActual = 0;
         objetosRecogidosEnMision.Clear();
+        dialogosCompletadosSinOrden.Clear();
 
         ActualizarUI();
     }
+
     public void AvanzarYActivarSiguienteMision()
     {
         if (indiceMisionActual < misiones.Count)
@@ -80,6 +79,7 @@ public class MisionManager : MonoBehaviour
         misionActiva = true;
         indiceNPCActual = 0;
         objetosRecogidosEnMision.Clear();
+        dialogosCompletadosSinOrden.Clear();
 
         ActualizarUI();
     }
@@ -112,6 +112,50 @@ public class MisionManager : MonoBehaviour
                         ActualizarUI();
                     }
                 }
+            }
+        }
+        else if (mision.tipoCompletado == TipoCompletado.SecuenciaDialogosSinOrden)
+        {
+            if (mision.nombresNPCsEnOrden == null || mision.nombresNPCsEnOrden.Length == 0)
+                return;
+
+            bool nombreValido = false;
+
+            for (int i = 0; i < mision.nombresNPCsEnOrden.Length; i++)
+            {
+                if (mision.nombresNPCsEnOrden[i] == nombreNPC)
+                {
+                    nombreValido = true;
+                    break;
+                }
+            }
+
+            if (!nombreValido)
+                return;
+
+            if (!dialogosCompletadosSinOrden.Contains(nombreNPC))
+            {
+                dialogosCompletadosSinOrden.Add(nombreNPC);
+            }
+
+            bool todosCompletados = true;
+
+            for (int i = 0; i < mision.nombresNPCsEnOrden.Length; i++)
+            {
+                if (!dialogosCompletadosSinOrden.Contains(mision.nombresNPCsEnOrden[i]))
+                {
+                    todosCompletados = false;
+                    break;
+                }
+            }
+
+            if (todosCompletados)
+            {
+                CompletarMisionActual();
+            }
+            else
+            {
+                ActualizarUI();
             }
         }
     }
@@ -149,11 +193,16 @@ public class MisionManager : MonoBehaviour
     {
         if (indiceMisionActual >= misiones.Count) return;
 
+        MisionData misionCompletada = misiones[indiceMisionActual];
+        bool activarSiguiente = misionCompletada.activarSiguienteAlCompletar;
+
         indiceMisionActual++;
-        misionActiva = false;
+
+        misionActiva = activarSiguiente && indiceMisionActual < misiones.Count;
 
         indiceNPCActual = 0;
         objetosRecogidosEnMision.Clear();
+        dialogosCompletadosSinOrden.Clear();
 
         ActualizarUI();
     }

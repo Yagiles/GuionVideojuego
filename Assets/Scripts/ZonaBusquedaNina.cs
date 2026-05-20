@@ -7,6 +7,9 @@ public class ZonaBusquedaNina : MonoBehaviour
     [Header("Condicion para poder buscar")]
     public DialogoData dialogoNecesario;
 
+    [Header("Estado persistente")]
+    public string idBusquedaCompletada = "busqueda_nina_completada";
+
     [Header("UI")]
     public TMP_Text avisoBuscar;
     public GameObject panelResultado;
@@ -37,19 +40,28 @@ public class ZonaBusquedaNina : MonoBehaviour
 
     void Start()
     {
-        if (panelResultado != null)
-            panelResultado.SetActive(false);
+        if (BusquedaYaCompletada())
+        {
+            OcultarUI();
+            DesactivarSistemaBusqueda();
+            gameObject.SetActive(false);
+            return;
+        }
 
-        if (avisoBuscar != null)
-            avisoBuscar.gameObject.SetActive(false);
-
-        if (textoResultado != null)
-            textoResultado.gameObject.SetActive(false);
+        OcultarUI();
     }
 
     void Update()
     {
         if (ninaEncontrada) return;
+
+        if (BusquedaYaCompletada())
+        {
+            OcultarUI();
+            DesactivarSistemaBusqueda();
+            gameObject.SetActive(false);
+            return;
+        }
 
         if (jugadorDentro && PuedeBuscar() && Input.GetKeyDown(KeyCode.B))
         {
@@ -64,6 +76,22 @@ public class ZonaBusquedaNina : MonoBehaviour
 
         return EstadoDialogos.instancia != null &&
                EstadoDialogos.instancia.HaHabladoCon(dialogoNecesario.name);
+    }
+
+    bool BusquedaYaCompletada()
+    {
+        return EstadoDialogos.instancia != null &&
+               !string.IsNullOrEmpty(idBusquedaCompletada) &&
+               EstadoDialogos.instancia.HaHabladoCon(idBusquedaCompletada);
+    }
+
+    void MarcarBusquedaCompletada()
+    {
+        if (EstadoDialogos.instancia != null &&
+            !string.IsNullOrEmpty(idBusquedaCompletada))
+        {
+            EstadoDialogos.instancia.MarcarComoHablado(idBusquedaCompletada);
+        }
     }
 
     void Buscar()
@@ -85,6 +113,7 @@ public class ZonaBusquedaNina : MonoBehaviour
     {
         ninaEncontrada = true;
 
+        MarcarBusquedaCompletada();
         OcultarUI();
 
         if (ninaAActivar != null)
@@ -120,6 +149,12 @@ public class ZonaBusquedaNina : MonoBehaviour
             dialogoManager.IniciarDialogo(dialogoAlEncontrarla);
         }
 
+        DesactivarSistemaBusqueda();
+        gameObject.SetActive(false);
+    }
+
+    void DesactivarSistemaBusqueda()
+    {
         if (BusquedaNina != null)
         {
             BusquedaNina.SetActive(false);
@@ -133,8 +168,6 @@ public class ZonaBusquedaNina : MonoBehaviour
                 busqueda.SetActive(false);
             }
         }
-
-        gameObject.SetActive(false);
     }
 
     void MostrarResultado()
@@ -178,7 +211,7 @@ public class ZonaBusquedaNina : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (ninaEncontrada) return;
+        if (ninaEncontrada || BusquedaYaCompletada()) return;
 
         if (collision.CompareTag("Player") && PuedeBuscar())
         {
