@@ -220,9 +220,9 @@ MonoBehaviour:
   dialogo: {fileID: 11400000, guid: 1c4f3cc859dbcd841991e92dbbb7ef48, type: 2}
   dialogoManager: {fileID: 712259542}
   scriptMovimientoJugador: {fileID: 1608920851}
-  scriptMovimientoGuia: {fileID: 2947655917461291149}
+  scriptMovimientoGuia: {fileID: 0}
   rbJugador: {fileID: 1608920850}
-  rbGuia: {fileID: 1608920850}
+  rbGuia: {fileID: 0}
   pantallaNegra: {fileID: 0}
   duracionFundido: 1
   jugador: {fileID: 0}
@@ -1591,6 +1591,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &835542855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 274633835238306928, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_Name
+      value: MusicaEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243786797990428819, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: musica
+      value: 
+      objectReference: {fileID: 8300000, guid: e5c70714ad5aa7d4aa6ce2a75aff6418, type: 3}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3386
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.23557
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
 --- !u!114 &862635475 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2222252964128100207, guid: da494371234f1d34c8db72600f8505af, type: 3}
@@ -2156,9 +2217,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosActivarMision.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosActivarMision.Array.data[0].accion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: eventosSoltarObjeto.Array.data[0].dialogo
       value: 
       objectReference: {fileID: 11400000, guid: d5dc05f9093155e44bc61fda1540d09a, type: 2}
+    - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
+      propertyPath: eventosActivarMision.Array.data[0].dialogo
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c4f3cc859dbcd841991e92dbbb7ef48, type: 2}
     - target: {fileID: 3454460079964733709, guid: 8fa7b1c6936012c42b65c87fa4581149, type: 3}
       propertyPath: eventosSoltarObjeto.Array.data[0].objetoData
       value: 
@@ -2790,7 +2863,7 @@ MonoBehaviour:
   scriptMovimientoJugador: {fileID: 1608920851}
   rbJugador: {fileID: 1608920850}
   colliderBloqueoTemporal: {fileID: 1864746209}
-  completaMision: 0
+  completaMision: 1
 --- !u!95 &1724660315
 Animator:
   serializedVersion: 7
@@ -3936,17 +4009,6 @@ MonoBehaviour:
   direccionIda: 1
   miraDerechaPorDefecto: 1
   guiaMovimiento: {fileID: 0}
---- !u!114 &2947655917461291149 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 184260860824240337, guid: 2c8657540bc6cbb468122c09e089d907, type: 3}
-  m_PrefabInstance: {fileID: 2947655917461291146}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2947655917461291147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc74c5fad40708a4f9d6a933609aff81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GuiaMovimiento
 --- !u!4 &3206431547110928311
 Transform:
   m_ObjectHideFlags: 0
@@ -5511,3 +5573,4 @@ SceneRoots:
   - {fileID: 812566819}
   - {fileID: 1864746211}
   - {fileID: 507595809}
+  - {fileID: 835542855}

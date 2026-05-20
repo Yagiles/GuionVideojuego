@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4c20a4e17ae4f4dbc41cbe95fa7cb2, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: Assembly-CSharp::MisionData
-  tituloMision: "Consigue una poci\xF3n"
-  descripcion: "Habla con el NPC de pociones y encuentra la poci\xF3n"
-  seCompletaAlCambiarEscena: 1
-  objetoRequerido: {fileID: 0}
+  tituloMision: Ve a la cueva
+  descripcion: "Ve a una cueva y habla con un drag\xF3n"
+  tipoCompletado: 1
+  objetosRequeridos: []
+  nombresNPCsEnOrden: []

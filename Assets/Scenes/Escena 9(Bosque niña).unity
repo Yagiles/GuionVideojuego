@@ -953,6 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaNina
   dialogoNecesario: {fileID: 11400000, guid: 85b0efa92958683438af7c23502f2a28, type: 2}
+  idBusquedaCompletada: busqueda_nina_completada
   avisoBuscar: {fileID: 1395846988}
   panelResultado: {fileID: 1395846986}
   textoResultado: {fileID: 1395846987}
@@ -1959,6 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaNina
   dialogoNecesario: {fileID: 11400000, guid: 85b0efa92958683438af7c23502f2a28, type: 2}
+  idBusquedaCompletada: busqueda_nina_completada
   avisoBuscar: {fileID: 1395846988}
   panelResultado: {fileID: 1395846986}
   textoResultado: {fileID: 1395846987}
@@ -2298,6 +2300,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a49a0831587e6947bef18d0dcdb94ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxCamera
+--- !u!1001 &1313982326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 274633835238306928, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_Name
+      value: MusicaEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243786797990428819, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: musica
+      value: 
+      objectReference: {fileID: 8300000, guid: e5c70714ad5aa7d4aa6ce2a75aff6418, type: 3}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3386
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.23557
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506961310507838357, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fda1e99256a17904f80d9ac8a143d05d, type: 3}
 --- !u!1 &1317809014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,7 +2499,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1513303750}
     m_Modifications:
     - target: {fileID: 1453297581124406501, guid: 33d7bb96123b18b4e9374a6f13288d1f, type: 3}
       propertyPath: m_fontSize
@@ -2637,6 +2700,11 @@ MonoBehaviour:
 --- !u!1 &1395846989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1771548716254899769, guid: 33d7bb96123b18b4e9374a6f13288d1f, type: 3}
+  m_PrefabInstance: {fileID: 1395846985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1395846990 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2625039325117324768, guid: 33d7bb96123b18b4e9374a6f13288d1f, type: 3}
   m_PrefabInstance: {fileID: 1395846985}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1410048294
@@ -2976,6 +3044,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6161029048010445176, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 309956358}
+    - targetCorrespondingSourceObject: {fileID: 6161029048010445176, guid: 39384b657df6f304c86c436392e1977f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1395846990}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7342923577042590097, guid: 39384b657df6f304c86c436392e1977f, type: 3}
       insertIndex: -1
@@ -3004,6 +3075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaNina
   dialogoNecesario: {fileID: 11400000, guid: 85b0efa92958683438af7c23502f2a28, type: 2}
+  idBusquedaCompletada: busqueda_nina_completada
   avisoBuscar: {fileID: 1395846988}
   panelResultado: {fileID: 1395846986}
   textoResultado: {fileID: 1395846987}
@@ -3657,6 +3729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaBusquedaNina
   dialogoNecesario: {fileID: 11400000, guid: 85b0efa92958683438af7c23502f2a28, type: 2}
+  idBusquedaCompletada: busqueda_nina_completada
   avisoBuscar: {fileID: 1395846988}
   panelResultado: {fileID: 1395846986}
   textoResultado: {fileID: 1395846987}
@@ -3801,10 +3874,10 @@ SceneRoots:
   - {fileID: 777414825}
   - {fileID: 620286474}
   - {fileID: 1513303749}
-  - {fileID: 1395846985}
   - {fileID: 2026961198}
   - {fileID: 582301873}
   - {fileID: 893651638}
   - {fileID: 908802649}
   - {fileID: 1477973834}
   - {fileID: 208043811}
+  - {fileID: 1313982326}

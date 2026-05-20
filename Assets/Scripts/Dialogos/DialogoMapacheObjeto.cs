@@ -19,6 +19,10 @@ public class DialogoMapacheObjeto : MonoBehaviour
     [Header("Bloqueador lateral")]
     public GameObject bloqueadorMovimientoLateral;
 
+    [Header("Misiones")]
+    public bool completaMision = false;
+    public string idMisionDialogo;
+
     private bool jugadorCerca = false;
     private bool dialogoEnCurso = false;
     private bool esperandoSoltarE = false;
@@ -49,7 +53,6 @@ public class DialogoMapacheObjeto : MonoBehaviour
     {
         if (dialogoManager == null) return;
         if (dialogoMapacheObjeto == null) return;
-
         if (EstadoDialogos.instancia == null) return;
 
         if (dialogoPrimeroNecesario != null &&
@@ -97,6 +100,18 @@ public class DialogoMapacheObjeto : MonoBehaviour
         if (EstadoDialogos.instancia != null && dialogoMapacheObjeto != null)
         {
             EstadoDialogos.instancia.MarcarComoHablado(dialogoMapacheObjeto.name);
+        }
+
+        if (completaMision && MisionManager.Instance != null)
+        {
+            if (!string.IsNullOrEmpty(idMisionDialogo))
+            {
+                MisionManager.Instance.NotificarDialogoTerminado(idMisionDialogo);
+            }
+            else if (dialogoMapacheObjeto != null)
+            {
+                MisionManager.Instance.NotificarDialogoTerminado(dialogoMapacheObjeto.name);
+            }
         }
     }
 

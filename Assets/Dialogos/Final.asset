@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28186e85056be5458f4bb9cfbfbff22, type: 3}
+  m_Name: Final
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoData
+  lineas:
+  - nombrePersonaje: Fey
+    texto: Vale, parece que estamos casi todos.
+  - nombrePersonaje: Lily
+    texto: "\xA1Ooohh! \xA1Has salvado al mundo!"
+  - nombrePersonaje: Lily
+    texto: "\xA1Eres como esos h\xE9roes!"
+  - nombrePersonaje: "T\xFA"
+    texto: "Ah\u2026 Yo s\xF3lo hac\xEDa lo que cualquiera hubiese hecho."
+  - nombrePersonaje: Lily
+    texto: "\xA1Pero gracias a ti ahora podr\xE9 jugar con todos de verdad!"
+  - nombrePersonaje: "T\xFA"
+    texto: "No hay de qu\xE9."
+  - nombrePersonaje: "Cact\xFAa"
+    texto: "\xA1Pero mira a qui\xE9n tenemos aqu\xED!"
+  - nombrePersonaje: "Ping\xFCino"
+    texto: Te estamos eternamente agradecidos.
+  - nombrePersonaje: "Ping\xFCino"
+    texto: "Sin tu ayuda, qui\xE9n sabe cu\xE1nto habr\xEDamos seguido bajo el control
+      del rey."
+  - nombrePersonaje: "T\xFA"
+    texto: N-no. No hace falta ser tan formal.
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: Ay, cielo. Acepta nuestra bondad.
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: "Lo has hecho muy bien. Aunque ahora tendremos que ver qu\xE9 haremos."
+  - nombrePersonaje: "Ping\xFCino"
+    texto: "Si por mi fuera. Me quedaba a tu lado, esposa m\xEDa."
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: "\xBFAmor?"
+  - nombrePersonaje: "Ping\xFCino"
+    texto: Aunque el control del rey haya desaparecido, mis sentimientos por ti permanecen.
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: "\xA1KHA, KHA, KHA, KHA!"
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: "\xA1Te amo!"
+  - nombrePersonaje: "Cacat\xFAa"
+    texto: (<i>se besan<i>)
+  - nombrePersonaje: "T\xFA"
+    texto: "(<i>Esto se est\xE1 volviendo inc\xF3modo<i>)"
+  - nombrePersonaje: Franfishco
+    texto: "Eh\u2026 Hola de nuevo."
+  - nombrePersonaje: Franfishco
+    texto: Vengo para darte las gracias.
+  - nombrePersonaje: "T\xFA"
+    texto: "Hola. No hay de qu\xE9."
+  - nombrePersonaje: Franfishco
+    texto: "Tambi\xE9n vengo de parte de Bell y Poc."
+  - nombrePersonaje: Franfishco
+    texto: Me han dicho que te entregue estas cartas. Toma.
+  - nombrePersonaje: "T\xFA"
+    texto: Ah, gracias.
+  - nombrePersonaje: Bell
+    texto: "\u201CMira t\xFA por donde. Me despierto de la siesta sin un peso en
+      los hombros.\u201D"
+  - nombrePersonaje: Bell
+    texto: "\u201CParece que mi informaci\xF3n te ha servido de mucho.\u201D"
+  - nombrePersonaje: Bell
+    texto: "\u201CGracias, chaval\xEDn. Ahora me puedo relajar en todo momento y
+      tener m\xE1s clientes.\u201D"
+  - nombrePersonaje: Bell
+    texto: "\u201C- Bell Belle, mercader y distribuidor de informaci\xF3n\u2026\u201D"
+  - nombrePersonaje: "T\xFA"
+    texto: "Anda que meterle publicidad a una carta\u2026"
+  - nombrePersonaje: Poc
+    texto: "\u201CHola, amigo.\u201D "
+  - nombrePersonaje: Poc
+    texto: "\u201CCuando me enter\xE9 de lo que pas\xF3 quise reunirme contigo.\u201D  "
+  - nombrePersonaje: Poc
+    texto: "\u201CPero primero me quiero preparar para investigar otros usos para
+      el agua del manantial.\u201D"
+  - nombrePersonaje: Poc
+    texto: "\u201CCreo que esta magia debe usarse para el bien com\xFAn.\u201D"
+  - nombrePersonaje: Poc
+    texto: "\u201CS\xED esta es la \xFAltima vez que hablamos, me gustar\xEDa desearte
+      la mejor de las suertes.\u201D"
+  - nombrePersonaje: Poc
+    texto: "\u201CY si nos volvemos a ver, te esperar\xE9 en mi tienda.\u201D"
+  - nombrePersonaje: Poc
+    texto: "\u201C- Poc\u201D"
+  - nombrePersonaje: "T\xFA"
+    texto: "(<i>se seca una l\xE1grima<i>)"
+  - nombrePersonaje: "T\xFA"
+    texto: "Me alegro que est\xE9n bien."
+  - nombrePersonaje: Franfishco
+    texto: Todo es gracias a ti.
+  - nombrePersonaje: Franfishco
+    texto: "Es una pena que sepamos tan poco de ti a pesar de recordarte cuando est\xE1bamos
+      bajo el control del rey."
+  - nombrePersonaje: Fey
+    texto: 'Bueno. Este portal. '
+  - nombrePersonaje: Fey
+    texto: "Esto es lo que te llevar\xE1 de vuelta a tu mundo."
+  - nombrePersonaje: "T\xFA"
+    texto: "S\xED. Aunque me lo he pasado muy bien el tiempo que estuve aqu\xED."
+  - nombrePersonaje: "T\xFA"
+    texto: Todos han sido muy amables.
+  - nombrePersonaje: Fey
+    texto: "Oh, vamos. Si sigues as\xED me pondr\xE9 a llorar."
+  - nombrePersonaje: Fey
+    texto: Te echaremos mucho de menos, pero entendemos que quieras volver a tu hogar
+  - nombrePersonaje: "T\xFA"
+    texto: "Adi\xF3s chicos, gracias por todo."
+  avanceAutomatico: 0
+  duracionLinea: 2
