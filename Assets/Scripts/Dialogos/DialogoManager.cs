@@ -532,6 +532,8 @@ public class DialogoManager : MonoBehaviour
             recogible = objeto.AddComponent<ObjetoRecogibleDialogo>();
         }
 
+        recogible.objetoData = evento.objetoData;
+
         while (!recogible.recogido)
         {
             yield return null;

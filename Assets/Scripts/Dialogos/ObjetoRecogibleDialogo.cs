@@ -13,6 +13,7 @@ public class ObjetoRecogibleDialogo : MonoBehaviour
         if (InventarioManager.Instance != null && objetoData != null)
         {
             InventarioManager.Instance.AñadirObjeto(objetoData);
+            InventarioUI.Instance.RefrescarUI();
         }
 
         recogido = true;
