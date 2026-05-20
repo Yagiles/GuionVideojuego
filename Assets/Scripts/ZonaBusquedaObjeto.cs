@@ -20,6 +20,9 @@ public class ZonaBusquedaObjeto : MonoBehaviour
     public GameObject prefabObjetoAparecer;
     public Transform puntoAparicion;
 
+    [Header("Sistema de busqueda")]
+    public GameObject sistemaBusquedaObjeto;
+
     [Header("Tiempo mensaje")]
     public float tiempoMostrarResultado = 4f;
 
@@ -31,6 +34,9 @@ public class ZonaBusquedaObjeto : MonoBehaviour
     {
         if (YaTieneObjetoBuscado())
         {
+            if (sistemaBusquedaObjeto != null)
+                sistemaBusquedaObjeto.SetActive(false);
+
             gameObject.SetActive(false);
             return;
         }
@@ -50,6 +56,10 @@ public class ZonaBusquedaObjeto : MonoBehaviour
         if (YaTieneObjetoBuscado())
         {
             OcultarUI();
+
+            if (sistemaBusquedaObjeto != null)
+                sistemaBusquedaObjeto.SetActive(false);
+
             gameObject.SetActive(false);
             return;
         }
@@ -81,6 +91,10 @@ public class ZonaBusquedaObjeto : MonoBehaviour
         if (YaTieneObjetoBuscado())
         {
             OcultarUI();
+
+            if (sistemaBusquedaObjeto != null)
+                sistemaBusquedaObjeto.SetActive(false);
+
             gameObject.SetActive(false);
             return;
         }
@@ -103,8 +117,23 @@ public class ZonaBusquedaObjeto : MonoBehaviour
                 objetoYaAparecido = true;
             }
 
-            if (panelResultado != null)
-                panelResultado.SetActive(false);
+            OcultarUI();
+
+            if (sistemaBusquedaObjeto != null)
+            {
+                sistemaBusquedaObjeto.SetActive(false);
+            }
+            else
+            {
+                GameObject busqueda = GameObject.Find("BusquedaObjeto");
+
+                if (busqueda != null)
+                {
+                    busqueda.SetActive(false);
+                }
+            }
+
+            gameObject.SetActive(false);
         }
         else
         {
@@ -156,6 +185,10 @@ public class ZonaBusquedaObjeto : MonoBehaviour
         if (YaTieneObjetoBuscado())
         {
             OcultarUI();
+
+            if (sistemaBusquedaObjeto != null)
+                sistemaBusquedaObjeto.SetActive(false);
+
             gameObject.SetActive(false);
             return;
         }

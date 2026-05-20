@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogoData
   lineas:
   - nombrePersonaje: Bell
-    texto: "(<i>bostezo<i<) \r\n\r\n"
+    texto: "(<i>bostezo<i>) \r\n\r\n"
   - nombrePersonaje: Bell
     texto: " Oh\u2026 Por fin lleg\xE1is.\r\n\r\n"
   - nombrePersonaje: Bell
@@ -26,7 +26,7 @@ MonoBehaviour:
   - nombrePersonaje: Bell
     texto: 'Tomad. Lo prometido es deuda.
 
-      
+
 
 '
   - nombrePersonaje: "T\xFA"
@@ -36,7 +36,7 @@ MonoBehaviour:
   - nombrePersonaje: Bell
     texto: 'No juzgues a un libro por su mugre.
 
-      
+
 
 '
   - nombrePersonaje: "T\xFA"
