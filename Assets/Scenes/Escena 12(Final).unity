@@ -3087,8 +3087,8 @@ MonoBehaviour:
   dialogoQuedarse: {fileID: 11400000, guid: c9ff206eda7f82343a0a4977d4837ea2, type: 2}
   pantallaNegra: {fileID: 1274619183}
   duracionFundido: 1
-  cargarEscenaFinal: 0
-  nombreEscenaFinal: 
+  cargarEscenaFinal: 1
+  nombreEscenaFinal: "Men\xFAInicio"
 --- !u!212 &1750295437
 SpriteRenderer:
   serializedVersion: 2
