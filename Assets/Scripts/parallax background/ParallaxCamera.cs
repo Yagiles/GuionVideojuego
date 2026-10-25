@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[DefaultExecutionOrder(100)]
 [ExecuteInEditMode]
 public class ParallaxCamera : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class ParallaxCamera : MonoBehaviour
         oldPosition = transform.position;
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (transform.position != oldPosition)
         {

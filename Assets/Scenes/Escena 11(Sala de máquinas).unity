@@ -681,6 +681,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 904010880441300237, guid: c4e68331aa2f226448b19f532e5953e4, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1840929503954728971, guid: c4e68331aa2f226448b19f532e5953e4, type: 3}
       propertyPath: m_Name
       value: Jugador
