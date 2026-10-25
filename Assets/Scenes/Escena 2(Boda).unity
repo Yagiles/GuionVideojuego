@@ -1160,8 +1160,8 @@ MonoBehaviour:
   - Novia
   requiereObjeto: 0
   objetoNecesario: {fileID: 0}
-  scriptMovimientoJugador: {fileID: 0}
-  rbJugador: {fileID: 0}
+  scriptMovimientoJugador: {fileID: 1117858536}
+  rbJugador: {fileID: 1117858537}
   colliderBloqueoTemporal: {fileID: 0}
   completaMision: 0
 --- !u!70 &965262425

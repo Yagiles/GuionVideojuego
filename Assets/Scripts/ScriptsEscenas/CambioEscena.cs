@@ -30,12 +30,6 @@ public class CambioEscena : MonoBehaviour
         {
             DialogoManager dialogoManager = FindFirstObjectByType<DialogoManager>();
 
-            if (dialogoManager != null && dialogoManager.dialogoActivo)
-            {
-                Debug.Log("No puedes cambiar de escena mientras hay un dialogo activo");
-                return;
-            }
-
             if (requiereDialogoPrevio)
             {
                 if (EstadoDialogos.instancia == null)
